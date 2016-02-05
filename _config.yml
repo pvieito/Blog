@@ -1,0 +1,16 @@
+# Site
+title: PVIEITO
+email: pvieito@gmail.com
+url: "https://pvieito.com"
+
+# Pages
+paginate: 4
+paginate_path: "/page/:num/"
+permalink: "/:year/:month/:title"
+
+# Localization
+timezone: Europe/Madrid
+
+# Build
+gems: [jekyll-paginate]
+include: [".htaccess"]
