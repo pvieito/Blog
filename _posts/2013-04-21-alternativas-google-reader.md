@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 'La vida después de Google Reader: historia y alternativas'
+lang: es
 ---
 
 Google Reader fue [presentado en el 2005][1] y se ha convertido en el servicio más usado para leer feeds RSS. Tan usado, que es el lector de feeds por defecto. Pero esto se acabará, Google anunció que [cerrará Reader el 1 de julio de este año][2]. [En Twitter][3] [cundió][4] [el][5] [pánico][6], pero por suerte existen diversas alternativas:

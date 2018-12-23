@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Análisis de las Estadísticas del mes de Diciembre
+lang: es
 ---
 
 Continuamos con el segundo Análisis de Estadísticas, esta vez en un mes
@@ -8,6 +8,12 @@ curioso, debido a la temporada vacacional. Destaco que este mes han visitado
 el blog 1.929 usuarios únicos (unos doscientos más que en Noviembre).
 
 <table>
+	<thead>
+		<tr>
+			<th>Navegador</th>
+			<th>Porcentaje</th>
+		</tr>
+	</thead>
 	<tbody>
 		<tr>
 			<td>Windows</td>

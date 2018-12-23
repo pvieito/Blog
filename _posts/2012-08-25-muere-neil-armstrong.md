@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Muere Neil Armstrong, el hombre que dio un gran salto para la humanidad
+lang: es
 ---
 
 T.C. Sottek:

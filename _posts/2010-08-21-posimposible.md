@@ -1,11 +1,11 @@
 ---
-layout: post
 title: Nada y todo es Posimposible
+lang: es
 ---
 
 <iframe width="640" height="360" src="//www.youtube.com/embed/0LWWCc9mNKY" frameborder="0" allowfullscreen></iframe>
 
-Vía [The Amstrix](http://rotundelas.blogaliza.org):
+Vía [The Amstrix](http://www.theamstrix.es):
 
 > — Cuando hablamos del éxito, el único límite es que no hay límites. Toda mi vida me he atrevido a ir más allá de lo posible.
 >

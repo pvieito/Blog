@@ -1,16 +1,38 @@
 # Site
 title: PVIEITO
 email: pvieito@gmail.com
+author: Pedro José Pereira Vieito
+creation: 2008
 url: "https://pvieito.com"
+
+# Deploy Configuration
+deploy_configuration:
+    ssh_url: "root@pvieito.com:/volume1/Web"
+    ssh_port: 222
+
+# Localization
+timezone: Europe/Madrid
 
 # Pages
 paginate: 4
 paginate_path: "/page/:num/"
 permalink: "/:year/:month/:title"
 
-# Localization
-timezone: Europe/Madrid
+# Defaults
+defaults:
+    - scope:
+        path: ""
+        type: "posts"
+      values:
+        lang: es
+        layout: "post"
 
 # Build
-gems: [jekyll-paginate]
-include: [".htaccess"]
+sass:
+    style: compressed
+exclude:
+    - "Icon*"
+include:
+    - ".well-known"
+plugins:
+    - jekyll-paginate

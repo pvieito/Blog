@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Sobre “Quantum of Solace”
+lang: es
 ---
 
 Daniel Craig, en una entrevista en Time Out London:

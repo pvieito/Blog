@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Visitas a PVIEITO
+lang: es
 ---
 
 [PVIEITO](/) vuelve a batir records durante la Keynote de Apple de la WWDC 2010:

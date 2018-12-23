@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Como eliminar Flash de OS X y ser feliz
+lang: es
 ---
 
 He decidido eliminar Flash Player de mi Mac y aquí os explico como lo he hecho. Recomiendo que lo probéis, desde que no tengo Flash instalado el rendimiento de OS X y sobretodo de Safari mejora mucho.

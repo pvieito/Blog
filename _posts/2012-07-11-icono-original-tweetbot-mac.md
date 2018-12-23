@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Icono original de “Tweetbot para Mac”
+lang: es
 ---
 
 ![Tweetbot para Mac][1]

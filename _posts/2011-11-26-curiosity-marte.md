@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "¡Curiosity ya va rumbo a Marte!"
+lang: es
 ---
 
 Tras un lanzamiento perfecto el Mars Science Laboratory, ahora conocido como Curiosity, viaja desde primeras horas de esta tarde rumbo a Marte, a donde llegará el 5 de agosto del año que viene.

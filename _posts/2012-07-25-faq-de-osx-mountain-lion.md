@@ -1,6 +1,6 @@
 ---
-layout: post
 title: FAQ de OS X Mountain Lion
+lang: es
 ---
 
 ### ¿Que aplicaciones usan el _Centro de Notificaciones_?

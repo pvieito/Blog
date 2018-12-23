@@ -1,12 +1,13 @@
 ---
-layout: post
 title: 'Eleccións Galicia 2012: Resultados da Enquisa'
+lang: gal
 ---
+
 Esta enquisa estivo aberta dende o 10 de Setembro ata o 15 de Outubro de 2012. Moitas grazas aos 422 participantes!
 
 ### Gráfico de Votos
 
-![Gráfico de Resultados][1]
+![Gráfico de Resultados](/media/2012/10/enquisa-eleccions-galicia.svg)
 
 ### Tabla de Datos
 
@@ -87,8 +88,8 @@ Esta enquisa estivo aberta dende o 10 de Setembro ata o 15 de Outubro de 2012. M
 			<td>&lt;0%</td>
 		</tr>
 		<tr>
-			<td><strong>Nulo ou Branco</strong></td>
-			<td></td>
+			<td><strong>N/B</strong></td>
+			<td>Nulo ou Branco</td>
 			<td>9</td>
 			<td>2%</td>
 		</tr>
@@ -100,6 +101,3 @@ Esta enquisa estivo aberta dende o 10 de Setembro ata o 15 de Outubro de 2012. M
 		</tr>
 	</tbody>
 </table>
-
-
-   [1]: /media/2012/10/enquisa-eleccions-galicia.png

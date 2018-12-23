@@ -1,0 +1,60 @@
+en:
+    name: English
+    month:
+        - January
+        - February
+        - March
+        - April
+        - May
+        - June
+        - July
+        - August
+        - September
+        - October
+        - November
+        - December
+es:
+    name: Español
+    month:
+        - Enero
+        - Febrero
+        - Marzo
+        - Abril
+        - Mayo
+        - Junio
+        - Julio
+        - Agosto
+        - Septiembre
+        - Octubre
+        - Noviembre
+        - Diciembre
+gal:
+    name: Galego
+    month:
+        - Xaneiro
+        - Febreiro
+        - Marzo
+        - Abril
+        - Maio
+        - Xuño
+        - Xullo
+        - Agosto
+        - Setembro
+        - Outubro
+        - Novembro
+        - Decembro
+cat:
+    name: Català
+    month:
+        - Gener
+        - Febrer
+        - Març
+        - Abril
+        - Maig
+        - Juny
+        - Juliol
+        - Agost
+        - Setembre
+        - Octubre
+        - Novembre
+        - Desembre

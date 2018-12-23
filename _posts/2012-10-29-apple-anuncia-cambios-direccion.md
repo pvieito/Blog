@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Apple anuncia interesantes cambios en su Dirección
+lang: es
 ---
 
 Apple ha anunciado unos cuantos cambios en su Dirección:

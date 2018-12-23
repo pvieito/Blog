@@ -2,22 +2,14 @@
 layout: default
 ---
 
-{% for post in paginator.posts %}
-  <article>
-  	<header>
-  		<h2 class="entry-title" >
-  			<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  		</h2>
-  		<p class="entry-meta">
-  			<time datetime="{{ site.time | date_to_xmlschema }}">{{ post.date | date: "%-d %B, %Y" }}</time>
-  		</p>
-  	</header>
-  	<div class="entry-content">
-          {{ post.content }}
-  	</div>
-  </article>
-  {% unless forloop.last %}
-    <div class="rombo">◆</div>
-  {% endunless %}
+{% if paginator.page == 1 %}
+    {% include hero.html %}
+    <h1 class="section" id="blog">Blog</h1>
+{% endif %}
+
+{% for page in paginator.posts %}
+	{% include post.html %}
+	{% unless forloop.last %}
+		<div class="diamond"></div>
+	{% endunless %}
 {% endfor %}
-    

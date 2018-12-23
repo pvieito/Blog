@@ -1,6 +1,6 @@
 ---
-layout: post
 title: "¿Pervi, una red social?"
+lang: es
 ---
 
 El pasado miércoles se publicó en La Voz de Galicia un artículo sobre Pervi, una simple red social basada en [SocialEngine](http://www.socialengine.net/), creada por dos chicos. El periódico escribió otro [artículo](http://www.lavozdegalicia.es/sociedad/2010/10/30/0003_8816158.htm) ayer mismo:

@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Análisis de las Estadísticas de Visitantes durante Noviembre
+lang: es
 ---
 
 En primer lugar hay que destacar que este mes han visto el blog 1.705 usuarios únicos los cuales ha realizado 2.791 visitas. El número de visitas del historial completo, desde diciembre de 2008 han sido 35.098.
@@ -64,7 +64,7 @@ Y aquí por navegador, es destacable el gran porcentaje que acumula Google Chrom
 		</tr>
 		<tr>
 			<td>Safari</td>
-			<td>22% (incluye Mobile Safari, 5%)</td>
+			<td>22%</td>
 		</tr>
 		<tr>
 			<td>IE</td>

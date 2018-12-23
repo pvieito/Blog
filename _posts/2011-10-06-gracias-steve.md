@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "¡Gracias, Steve!"
+title: "Thank you, Steve!"
+lang: en
 ---
 
 Steve Jobs:

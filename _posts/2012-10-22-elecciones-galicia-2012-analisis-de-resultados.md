@@ -1,17 +1,17 @@
 ---
-layout: post
 title: 'Elecciones Galicia 2012: Análisis de Resultados'
+lang: es
 ---
 
 ### Resultados
 
-![Resultados das Eleccións Galicia 2012][1]
+![Resultados de las Elecciones Galicia 2012][1]
 
 <table>
 	<thead>
 		<tr>
 			<th>Siglas</th>
-			<th>Escanos</th>
+			<th>Escaños</th>
 			<th>Votos</th>
 			<th>%</th>
 		</tr>
@@ -41,14 +41,11 @@ title: 'Elecciones Galicia 2012: Análisis de Resultados'
 			<td>145.389</td>
 			<td>10,16%</td>
 		</tr>
-		<tr>
-			<td><a href="http://resultados2012.xunta.es">Obter máis datos</a></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
 	</tbody>
 </table>
+<figcaption>Datos ofrecidos por la <a href="http://resultados2012.xunta.es">Xunta de Galicia</a>.</figcaption>
+
+### Análisis
 
 [Víctor Pereira Sánchez][2] hace [un excelente análisis][3] de los resultados electorales de ayer en Galicia:
 
@@ -61,6 +58,6 @@ Podéis seguir leyendo el análisis en [su blog][3], dónde he publicado el sigu
   * El batacazo más grande se lo ha llevado el **BNG**: casi la mitad de votos, su estructura interna desgarrada por las luchas de poder. En mi opinión tiene difícil el futuro tal y como está.
   * Por último, el gran vencedor, a parte de Feijóo: AGE. **Beiras**, como captador de los votos de la izquierda descontenta se perfila como el líder perfecto de la oposición que seguramente ponga en mayores dificultades dialécticas a Feijóo.
 
-   [1]: /media/2012/10/elecciones-galicia-2012.png
+   [1]: /media/2012/10/eleccions-galicia-2012.svg
    [2]: http://twitter.com/victrpsanchez
    [3]: http://largallego.blogspot.com.es/2012/10/21-o-en-galicia-un-analisis.html

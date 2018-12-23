@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Cómo recuperar acceso de administrador en un Mac
+lang: es
 ---
 
 Siguiendo estas instrucciones se puede recuperar el acceso de administrador de un Mac sin eliminar otras cuentas o borrar el disco. Este método no funcionará si el disco duro está cifrado con FileVault 2.

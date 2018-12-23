@@ -1,16 +1,15 @@
 ---
-# Theme Name: PVIEITO
-# Author: Pedro José Pereira Vieito
-# Author URI: https://pvieito.com
-# License: © 2008-2016 Pedro José Pereira Vieito
-# Version: 8.2
+# Name: PVIEITO
+# Copyright: © 2008-2016 Pedro José Pereira Vieito
+# Version: 8.3
 ---
+
 @charset "utf-8";
 
 $pvieito-blue: #475C92;
 
 /* Import */
-@import url(https://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic);
+@import url("https://fonts.googleapis.com/css?family=Gentium+Basic:400,700,400italic,700italic");
 
 /* General */
 body {
@@ -22,39 +21,6 @@ body {
 	color: #333;
 	font-family: "Gentium Basic", "Palatino", Georgia, sans-serif;
 }
-section#wrapper {
-	display: block;
-	width: 728px;
-	margin: 0 auto;
-}
-
-/* Cabecera */
-#header {
-	position: relative;
-	display: block;
-	margin: 0 auto;
-	text-align: center;
-	line-height: 1.8em;
-	font-size: 1.03em;
-}
-#header img#logo {
-	padding-top: 1.3em;
-	padding-bottom: 0;
-	display: block;
-	width: 425px;
-	height: auto;
-	margin: auto;
-}
-#header p#author {
-	margin-top: 0em;
-	margin-bottom: 1.5em;
-}
-#header nav#links {
-	border-bottom: 1px solid #D2D2D2;
-	border-top: 1px solid #D2D2D2;
-	margin-bottom: 2em;
-}
-
 /* Selección */
 ::selection {
 	color: white;
@@ -63,7 +29,7 @@ section#wrapper {
 
 /* Enlaces */
 a, a:active {
-	border: none; /* IE Sucks™ */
+	border: none;
 	color: $pvieito-blue;
 	text-decoration: none;
 }
@@ -71,123 +37,163 @@ a:hover {
 	text-decoration: underline;
 }
 
-/* Secciones */
-#archive input#s {
-	width: 280px;
-	margin-bottom: 1.3em;
+/* Sección envoltorio */
+section#wrapper {
+	display: block;
+	width: 728px;
+	margin: 0 auto;
+    
+    h1.section {
+        text-align: center;
+        font-size: 3em;
+        font-weight: normal;
+        font-style: italic;
+        margin: 2em 0 1.1em;
+        padding: 0.3em;
+        border-bottom: 1px solid #D2D2D2;
+        border-top: 1px solid #D2D2D2;
+    }
 }
-nav#pages {
-	padding: 2em 0;
-	font-size: 1.1em;
-}
-nav#pages div {
-	min-width: 83px;
-	min-height: 25px;
-	line-height: 1em;
-}
-footer {
+
+/* Cabecera */
+header#title {
+	position: relative;
+	display: block;
+	margin: 0 auto;
 	text-align: center;
-	margin-top: 2em;
-	padding-bottom: 1em;
-	font-size: 0.95em;
+	line-height: 1.8em;
+	font-size: 1.03em;
+
+	img#logo {
+		padding-top: 1.3em;
+		padding-bottom: 0;
+		display: block;
+		width: 425px;
+		height: auto;
+		margin: auto;
+	}
+	p#author {
+		margin-top: 0em;
+		margin-bottom: 1.5em;
+	}
+	nav#links {
+		border-bottom: 1px solid #D2D2D2;
+		border-top: 1px solid #D2D2D2;
+		margin-bottom: 2em;
+	}
 }
-footer p { margin: 0.5em 0; }
 
 /* Entradas */
 article {
 	display: block;
 	line-height: 1.6;
-}
-article header p { margin: 0; }
 
-/* Título Entradas */
-header {
-	padding-bottom: 5px;
-}
-h2 {
-	font-size: 1.7em;
-	margin-bottom: 0;
-	line-height: 1.25;
-	font-weight: normal;
+	/* Título Entradas */
+	header {
+		padding-bottom: 5px;
+		h2.title {
+			font-size: 1.7em;
+			margin-bottom: 0;
+			line-height: 1.25;
+			font-weight: normal;
+		}
+		p.meta {
+			margin: 0;
+			span.lang {
+				font-size: 0.6em;
+				font-family: Helvetica, Arial, sans-serif;
+				vertical-align: middle;
+				color: #999;
+				border: 1px #999 solid;
+				border-radius: 3px;
+				padding: 0.2em 0.2em 0.1em 0.2em;
+				margin-left: 0.5em;
+			}
+		}
+	}
+
+	/* Contenido */
+	div.content {
+		overflow-x: auto;
+		h3 {
+			font-size: 1.1em;
+			margin-top: 1.6em;
+		}
+		p {
+			margin-bottom: 20px;
+		}
+		blockquote {
+			margin-left: 1.5em;
+			border-left: #BBB solid 3px;
+			padding-left: 13px;
+			color: #666;
+		}
+		table {
+			margin: 2em auto;
+			min-width: 300px;
+			max-width: 100%;
+			border-collapse: collapse;
+			td, th {
+				margin: 0;
+				border: 1px solid #CBCBCB;/*  inner column border */
+				padding: 0.4em 0.7em; /* cell padding */
+			}
+		}
+		img, iframe {
+			max-width: 100%;
+			max-height: 500px;
+			margin: auto;
+			display: block;
+		}
+		iframe {
+			width: 100% !important;
+		}
+		img {
+			border-radius: 5px;
+		}
+		figcaption {
+			margin-bottom: 1.5em;
+			text-align: center;
+			font-style: italic;
+			font-size: 0.9em;
+			color: #555;
+		}
+		pre {
+			background-color: #e1e1e1;
+			overflow: auto;
+			padding: 5px 10px;
+			border-radius: 5px;
+			margin-top: 0;
+		}
+		pre, code {
+			font-family: "Monaco", monospace;
+			font-size: 0.8em;
+		}
+		sup { bottom: 0.5ex; }
+		sub { top: .5ex; }
+		dt { font-weight: bold; }
+		dd { margin: 0 auto 15px 20px; }
+
+		/* Detalles */
+		div { overflow: auto; }
+		div.right { width: 49%; float: right; display: block; }
+		div.left { width: 49%; float: left; display: block; }
+		div.footnotes { font-size: 15px; }
+		li p { margin: 5px 0; }
+	}
 }
 
-/* Cuerpo de las Entradas */
-h3 {
-	font-size: 1.1em;
-	margin-top: 1.6em;
-}
-#header + div.rombo {
-	display: none;
-}
-.rombo {
+/* Separadores */
+.diamond {
 	text-align: center;
 	font-size: 1.5em;
 	color: #CCC;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 }
-p {
-    margin-bottom: 20px;
+.diamond::after {
+	content: "◆";
 }
-blockquote {
-	margin-left: 1.5em;
-	border-left: #BBB solid 3px;
-	padding-left: 13px;
-	color: #666;
-}
-table {
-	text-align: center;
-	margin: 2em auto;
-	border-collapse: collapse;
-	min-width: 300px;
-}
-table td, table th {
-	margin: 0;
-	padding: 5px 10px 5px 5px;
-	border-bottom: 1px solid #BBB;
-}
-article img, article iframe {
-	max-width: 100%;
-	max-height: 500px;
-	margin: auto;
-	display: block;
-}
-article iframe { width: 100% !important; }
-article img { border-radius: 5px; }
-figure {
-	padding-bottom: 5px;
-	padding-top: 5px;
-}
-figcaption {
-	margin-top: 10px;
-	text-align: center;
-	font-style: italic;
-	font-size: 0.9em;
-	color: #555;
-}
-pre {
-	background-color: #e1e1e1;
-	overflow: auto;
-	padding: 10px;
-	border-radius: 5px;
-}
-pre, code {
-	font-family: "Monaco", monospace;
-	font-size: 0.8em;
-	white-space: pre;
-}
-sup { bottom: 0.5ex; }
-sub { top: .5ex; }
-dt { font-weight: bold; }
-dd { margin: 0 auto 15px 20px; }
-
-/* Detalles */
-.right { width: 49%; float: right; display: block; text-align: right; }
-.left { width: 49%; float: left; display: block; }
-article div.footnotes { font-size: 15px; }
-li p { margin: 5px 0; }
-
-/* Separadores */
 hr {
 	clear: both;
 	border: none;
@@ -198,11 +204,19 @@ hr {
 	background: linear-gradient(to right, #ffffff 0%, #BBB 25%, #BBB 50%, #BBB 75%, #ffffff 100%);
 }
 
+/* Pie de Página */
+footer {
+	text-align: center;
+	margin-top: 2em;
+	padding-bottom: 1em;
+	font-size: 0.95em;
+}
+
 /* Móvil */
 @media (max-width: 750px) {
 	body { font-size: 17px; }
 	section#wrapper { width: 90%; min-width: 300px; }
-	#header img#logo { width: 230px; }
+	header#title img#logo { width: 230px; }
 	article img, article figure, article iframe { max-height: 1000px; }
 	figcaption { font-size: 1em; }
 }

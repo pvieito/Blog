@@ -1,0 +1,14 @@
+---
+permalink: .htaccess
+---
+ErrorDocument 404 /404.html
+
+AddType application/x-httpd-php .php
+AddType application/cgi .cgi
+AddType text/plain asc
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+Redirect /remoteplay /misc/RemotePlay

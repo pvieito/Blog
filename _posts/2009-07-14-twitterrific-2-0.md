@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Twitterrific 2.0
+lang: es
 ---
 
 Twitterrific es una curiosa aplicación para usar Twitter, una red social donde se pueden publicar mensajes de menos de 140 caracteres y seguir a usuarios que te interesen, yo soy [@pvieito](https://twitter.com/pvieito).

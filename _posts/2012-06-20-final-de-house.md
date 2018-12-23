@@ -1,6 +1,6 @@
 ---
-layout: post
 title: 'Mañana en Cuatro: Final de House'
+lang: es
 ---
 
 Impresionante anuncio de Cuatro para el capítulo final de **House**, con música de _Rammstein_. Una serie fantástica que quedará para la historia.

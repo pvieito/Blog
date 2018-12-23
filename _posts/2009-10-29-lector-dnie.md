@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Lector de DNIe por sólo 2€
+lang: es
 ---
 
 [Lector de DNIe de Tracis](https://www.tractis.com/red-es/mediosyredes/).

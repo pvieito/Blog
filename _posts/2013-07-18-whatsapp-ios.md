@@ -1,6 +1,6 @@
 ---
-layout: post
 title: El nuevo modelo de WhatsApp para iOS
+lang: es
 ---
 
 Ayer WhatsApp lanzó su última actualización para iOS, entre las novedades incluía copias de seguridad en iCloud, la posibilidad de añadir múltiples fotos a una conversación al mismo tiempo, abrir archivos en WhatsApp y una esperada API que permitirá a otras aplicaciones interactuar con WhatsApp (por ejemplo enviar fotos o música que guardemos en Dropbox).

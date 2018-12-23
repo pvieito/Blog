@@ -1,6 +1,6 @@
 ---
-layout: post
 title: El Análisis de John Siracusa de OS X 10.8 Mountain Lion
+lang: es
 ---
 
 El excelente [Análisis de John Siracusa de OS X 10.8 Mountain Lion][1]. Sí, son 25.517 palabras. Por si no son suficientes también ha publicado un [artículo en Hypercritical][2] explicando como escribió el Análisis y Marco Arment ha publicado un [Análisis del Análisis de John Siracusa][3], ¿un meta-análisis?.

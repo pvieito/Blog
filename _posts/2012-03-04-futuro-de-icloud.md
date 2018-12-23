@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Sobre el futuro de iCloud y “Documentos en la nube”
+lang: es
 ---
 
 Desde la presentación de iCloud por Steve Jobs en la pasada WWDC una de las características que desgraciadamente han tenido menos éxito ha sido “Documentos en la nube”. Esta característica prácticamente no ha sido implementada en aplicaciones de terceros y sin embargo su potencial es enorme.

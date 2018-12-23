@@ -1,7 +1,6 @@
 ---
-layout: post
-title: Hoy se cumplen 40 años desde la última vez que el hombre pisó la Luna y 50
-  de Exploración Interplanetaria
+title: Hoy se cumplen 40 años desde la última vez que el hombre pisó la Luna y 50 de Exploración Interplanetaria
+lang: es
 ---
 
 ![Foto durante la misión Apollo 17][1]

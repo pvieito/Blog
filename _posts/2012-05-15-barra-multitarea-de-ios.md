@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Rediseño de la Barra Multitarea de iOS
+lang: es
 ---
 
 ![Barra Multitarea][1]
