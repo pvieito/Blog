@@ -1,0 +1,15 @@
+{
+  "applinks" : {
+    "apps" : [
+
+    ],
+    "details" : [
+      {
+        "appID" : "T7MC635YG5.com.pvieito.UniversalLinkApp",
+        "paths" : [
+          "*"
+        ]
+      }
+    ]
+  }
+}
