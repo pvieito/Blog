@@ -20,7 +20,7 @@ Fortunately, the HomeKit pairing keys are stored on the iCloud Keychain. Unfortu
 
 ### Process
 
-First of all, we have to subvert the AMFI security model to be able to sign arbitrary executables with private entitlements. To do it, we have to disable **System Integrity Protection** and **AMFI**. Rebooting on **Recovery OS** disable the protections using the Terminal app:
+First of all, we have to subvert the AMFI security model to be able to sign arbitrary executables with private entitlements. To do it, we have to disable **System Integrity Protection** and **AMFI**. Rebooting on **Recovery OS** we can disable the protections using the Terminal app:
 
 ```bash
 $ csrutil disable
