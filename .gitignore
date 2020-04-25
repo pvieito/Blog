@@ -1,5 +1,5 @@
 /_site
+/_build
 /.sass-cache
 /.localized
-/_site
-/_build
+/.jekyll-cache
