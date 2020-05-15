@@ -40,7 +40,7 @@ The PCB has 4 layers, two external or sides and two internal layers. In parenthe
 
 * Front side (**<span style="color:orange">Orange</span>**)
 * Back side (**<span style="color:deepskyblue">Cyan</span>**)
-* Internal Ground layer (**<span style="color:navy">Navy Blue</span>**)
+* Internal ground layer (**<span style="color:navy">Navy Blue</span>**)
 * Internal track layer (**<span style="color:purple">Purple</span>**)
 
 Now we will analyze each layer in detail.
