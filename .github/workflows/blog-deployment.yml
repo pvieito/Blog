@@ -17,4 +17,4 @@ jobs:
       - name: Deploy
         run: |
             git clone https://github.com/pvieito/JekyllTool /tmp/JekyllTool
-            swift run --package-path /tmp/JekyllTool JekyllTool -d -i .
+            swift run --enable-test-discovery --package-path /tmp/JekyllTool JekyllTool -d -i .
