@@ -81,7 +81,7 @@ Configuration number (c#): 5
 Feature Flags (ff): Supports HAP Pairing (Flag: 1)
 Device ID (id): 58:CA:96:CE:66:5F  # Same Device ID as in the keychain entry.
 Model Name (md): Eve Extend XXXXXXXX
-Protocol Version (pvieito): 1.1
+Protocol Version (pv): 1.1
 State Number (s#): 1
 Status Flags (sf): Accessory has been paired. (Flag: 0)
 Category Identifier (ci): Bridge (Id: 2)
