@@ -16,6 +16,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Configure SSH
         run: |
+          eval `ssh-agent -s`
           mkdir -p ~/.ssh
           printenv BLOG_DEPLOYMENT_SSH_KEY | tee ~/.ssh/id_rsa > /dev/null
           chmod og-rwx ~/.ssh/id_rsa && ssh-add
