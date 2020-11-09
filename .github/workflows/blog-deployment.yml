@@ -20,8 +20,7 @@ jobs:
           mkdir -p ~/.ssh
           printenv BLOG_DEPLOYMENT_SSH_KEY | tee ~/.ssh/id_rsa > /dev/null
           chmod og-rwx ~/.ssh/id_rsa && ssh-add
-          shasum ~/.ssh/id_rsa
-          ssh -i ~/.ssh/id_rsa "root@pvieito.com" -p 222 'ls /'
+          ssh -v -oIdentitiesOnly=yes -oBatchMode=yes -i ~/.ssh/id_rsa "root@pvieito.com" -p 222 'ls /'
         env:
           BLOG_DEPLOYMENT_SSH_KEY: ${{ secrets.BLOG_DEPLOYMENT_SSH_KEY }}
       - name: Install Jekyll
