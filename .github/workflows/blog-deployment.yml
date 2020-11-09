@@ -20,6 +20,8 @@ jobs:
           mkdir -p ~/.ssh
           printenv BLOG_DEPLOYMENT_SSH_KEY | tee ~/.ssh/id_rsa > /dev/null
           chmod og-rwx ~/.ssh/id_rsa && ssh-add
+          echo 'Host *' >> ~/.ssh/config
+          echo '    StrictHostKeyChecking no' >> ~/.ssh/config
           ssh -v -oIdentitiesOnly=yes -oBatchMode=yes -i ~/.ssh/id_rsa "root@pvieito.com" -p 222 'ls /'
         env:
           BLOG_DEPLOYMENT_SSH_KEY: ${{ secrets.BLOG_DEPLOYMENT_SSH_KEY }}
