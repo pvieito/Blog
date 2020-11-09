@@ -14,15 +14,16 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
-      - name: Install Jekyll
-        run: |
-          sudo gem install jekyll jekyll-paginate bundler
       - name: Configure SSH
         run: |
+          mkdir -p ~/.ssh
           printenv BLOG_DEPLOYMENT_SSH_KEY | tee ~/.ssh/id_rsa > /dev/null
           chmod og-rwx ~/.ssh/id_rsa && ssh-add
         env:
           BLOG_DEPLOYMENT_SSH_KEY: ${{ secrets.BLOG_DEPLOYMENT_SSH_KEY }}
+      - name: Install Jekyll
+        run: |
+          sudo gem install jekyll jekyll-paginate bundler
       - name: Deploy
         run: |
           git clone https://github.com/pvieito/JekyllTool $JEKYLLTOOL_SOURCE_DIR
