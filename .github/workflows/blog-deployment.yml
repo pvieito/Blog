@@ -1,0 +1,20 @@
+name: Blog Deployment
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  continuous-integration:
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deploy
+        run: |
+            git clone https://github.com/pvieito/JekyllTool /tmp/JekyllTool
+            swift run --package-path /tmp/JekyllTool JekyllTool -d -i .
