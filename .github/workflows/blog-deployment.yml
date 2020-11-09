@@ -30,4 +30,4 @@ jobs:
           git clone https://github.com/pvieito/JekyllTool $JEKYLLTOOL_SOURCE_DIR
           swift run --enable-test-discovery --package-path $JEKYLLTOOL_SOURCE_DIR JekyllTool -d -i .
         env:
-            JEKYLLTOOL_SOURCE_DIR: /tmp/JekyllTool
+          JEKYLLTOOL_SOURCE_DIR: /tmp/JekyllTool
