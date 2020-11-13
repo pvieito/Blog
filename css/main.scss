@@ -93,12 +93,17 @@ header#title {
         margin-top: 0em;
         margin-bottom: 1.5em;
     }
-    nav#links {
-        font-weight: 600;
-        border-bottom: 1px solid var(--structure-color);
-        border-top: 1px solid var(--structure-color);
-        margin-bottom: 2em;
-    }
+}
+
+/* Navigation */
+nav {
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 1.03em;
+    border-bottom: 1px solid var(--structure-color);
+    border-top: 1px solid var(--structure-color);
+    margin-bottom: 2em;
 }
 
 /* Articles */

@@ -3,10 +3,10 @@ layout: page
 title: App Privacy
 ---
 
-Our app privacy policy is simple: **your data is yours**.
+This app privacy policy is very simple: **your data is yours**.
 
 - If the app includes any **sync support**, it will use the system sync service that is **under your control**.
-- If the app shows or generates any **health data**, it will do it on device within the system database **under your control**.
-- If the app uses any **complex processing** or Machine Learning technique, the app will do it on device where the resulting data will be **under your control**.
+- If the app stores any **health data**, it will do it on-device within the system health service **under your control**.
+- If the app uses any **complex processing** technique, the app will do it on-device or through a system service so the processed and resulting data will be always **under your control**.
 
-That's it, simple!
+<center>Proudly crafted with the <i><a href="https://en.wikipedia.org/wiki/Privacy_by_design">Privacy by Design</a></i> principle in mind.</center>
