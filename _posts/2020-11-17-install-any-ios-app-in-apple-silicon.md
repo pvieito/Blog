@@ -1,5 +1,5 @@
 ---
-title: "Install any iOS app on Apple silicon Macs"
+title: "Install Any iOS App on Apple Silicon Macs"
 lang: en
 ---
 
