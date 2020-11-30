@@ -5,11 +5,6 @@ author: Pedro José Pereira Vieito
 creation: 2008
 url: "https://pvieito.com"
 
-# Deploy Configuration
-deploy_configuration:
-  ssh_url: "root@pvieito.com:/volume1/Web"
-  ssh_port: 222
-
 # Localization
 timezone: Europe/Madrid
 
