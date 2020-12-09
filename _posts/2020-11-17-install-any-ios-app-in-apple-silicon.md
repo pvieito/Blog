@@ -10,10 +10,11 @@ Apple silicon Macs can run iPhone and iPad apps natively using the same [Mac Cat
 
 Currently there are multiple approaches to download those IPA files for any iOS app:
 
-- [iMobie M1 App Checker](https://www.imobie.com/m1-app-checker/) on the Mac.
-- [Apple Configurator](https://medium.com/@b0661064248/how-can-i-get-ipa-of-any-app-which-is-available-on-app-store-3a403be7b028) on the Mac (requires connecting an iPhone or iPad).
+- [iMobie M1 App Checker](https://www.imobie.com/m1-app-checker/).
+- [Apple Configurator](https://medium.com/@b0661064248/how-can-i-get-ipa-of-any-app-which-is-available-on-app-store-3a403be7b028) (requires connecting an iPhone or iPad).
+- [iTunes 12.6](https://support.apple.com/es_ES/downloads/itunes) on a compatible Mac or PC.
 
-Once you have the IPA file, you can simply copy it to any Apple silicon Mac, double click it and _voilà!_
+Once you have the IPA file, you can simply double click it on any Apple silicon Mac and _voilà!_
 
 <center>
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Apple Silicon Macs running iOS apps natively is truly game-changing.<br><br>macOS will become the most complete app platform ever: from complex workflows with Xcode, Final Cut Pro or MATLAB to ordering with Deliveroo, browsing IMDb or watching Netflix… there will be an app for that! <a href="https://t.co/CiCTOROaNR">pic.twitter.com/CiCTOROaNR</a></p>&mdash; Pedro José Pereira Vieito (@pvieito) <a href="https://twitter.com/pvieito/status/1328397045032497154?ref_src=twsrc%5Etfw">November 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
