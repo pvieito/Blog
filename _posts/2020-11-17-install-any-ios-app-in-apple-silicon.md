@@ -10,9 +10,8 @@ Apple silicon Macs can run iPhone and iPad apps natively using the same [Mac Cat
 
 Currently there are multiple approaches to download those IPA files for any iOS app:
 
-- Use [iMobie M1 App Checker](https://www.imobie.com/m1-app-checker/) to easily download and export your apps.
-- Download them using [iTunes 12.6](https://support.apple.com/es_ES/downloads/itunes) in a compatible Mac or PC.
-- [Use Apple Configurator on the Mac](https://medium.com/@b0661064248/how-can-i-get-ipa-of-any-app-which-is-available-on-app-store-3a403be7b028).
+- [iMobie M1 App Checker](https://www.imobie.com/m1-app-checker/) on the Mac.
+- [Apple Configurator](https://medium.com/@b0661064248/how-can-i-get-ipa-of-any-app-which-is-available-on-app-store-3a403be7b028) on the Mac (requires connecting an iPhone or iPad).
 
 Once you have the IPA file, you can simply copy it to any Apple silicon Mac, double click it and _voilà!_
 
