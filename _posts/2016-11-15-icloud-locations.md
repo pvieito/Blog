@@ -16,8 +16,8 @@ So if you want to access a sandboxed iCloud location you should go to the app co
 Each app can have one or more document containers inside named with its Bundle ID:
 
 	~/Library/Mobile Documents/
-	
-The infomation and details of each container are stored here:
+
+The information and details of each container are stored here:
 
 	~/Library/Application Support/CloudDocs/session/containers
 
