@@ -20,7 +20,7 @@ layout: default
 		var appStoreURL = appNode.attributes["app-store-url"].value;
 		var utmCampaign = getParameterByName("utm_campaign");
 		if (utmCampaign) {
-			appStoreURL += "&pt111063803=&ct" + utmCampaign;
+			appStoreURL += "&pt=111063803&ct=" + utmCampaign;
 		}
 		window.location.href = appStoreURL;
 	}
