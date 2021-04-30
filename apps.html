@@ -4,23 +4,16 @@ layout: default
 
 {% include apps.html %}
 <script>
-	function getParameterByName(name, url = window.location.href) {
-		name = name.replace(/[\[\]]/g, '\\$&');
-		var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-			results = regex.exec(url);
-		if (!results) return null;
-		if (!results[2]) return '';
-		return decodeURIComponent(results[2].replace(/\+/g, ' '));
-	}
-
-	var redirect = getParameterByName("redirect");
+	var urlParams = new URLSearchParams(window.location.search);
+	var redirect = urlParams.get("redirect");
 	if (redirect !== null) {
 		var appNodeId = redirect == "" ? window.location.hash.substring(1) : "app-" + redirect;
 		var appNode = document.getElementById(appNodeId);
-		var appStoreURL = appNode.attributes["app-store-url"].value;
-		var utmCampaign = getParameterByName("utm_campaign");
+		var appStoreURL = new URL(appNode.attributes["app-store-url"].value);
+		var utmCampaign = urlParams.get("utm_campaign");
 		if (utmCampaign) {
-			appStoreURL += "&pt=111063803&ct=" + utmCampaign;
+			appStoreURL.searchParams.set("pt", 111063803);
+			appStoreURL.searchParams.set("ct", utmCampaign);
 		}
 		window.location.replace(appStoreURL);
 	}
