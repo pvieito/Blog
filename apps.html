@@ -15,8 +15,8 @@ layout: default
 
 	var redirect = getParameterByName("redirect");
 	if (redirect) {
-		var appNode = document.getElementById("app-" + redirect)
-		var appStoreURL = appNode.attributes["app-store-url"].value
+		var appNode = document.getElementById("app-" + redirect);
+		var appStoreURL = appNode.attributes["app-store-url"].value;
 		window.location.replace(appStoreURL);
 	}
 </script>
