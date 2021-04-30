@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include apps.html %}
+<script>
+	function getParameterByName(name, url = window.location.href) {
+		name = name.replace(/[\[\]]/g, '\\$&');
+		var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+			results = regex.exec(url);
+		if (!results) return null;
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, ' '));
+	}
+
+	var redirect = getParameterByName("redirect");
+	if (redirect) {
+		var appNode = document.getElementById("app-" + redirect)
+		var appStoreURL = appNode.attributes["app-store-url"].value
+		window.location.replace(appStoreURL);
+	}
+</script>
