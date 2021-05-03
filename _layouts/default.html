@@ -12,7 +12,13 @@
 		<link rel="alternate" title="{{ site.title }}" type="application/atom+xml" href="/feed.xml" />
         <link rel="alternate" title="{{ site.title }}" type="application/json" href="/feed.json" />
 
+		<!-- Google Analytics -->
 		<script async src="//www.google-analytics.com/analytics.js"></script>
+		<script>
+		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+		ga("create", "UA-33067442-1", "auto");
+		ga("send", "pageview");
+		</script>
 	</head>
 	<body>
 		<section id="wrapper">
@@ -43,12 +49,5 @@
 				<div class="contact">© {{ site.creation_year }}–{{ site.time | date: "%Y" }} {{ site.author }}</div>
 			</footer>
 		</section>
-
-		<!-- Google Analytics -->
-		<script>
-		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-		ga("create", "UA-33067442-1", "auto");
-		ga("send", "pageview");
-		</script>
 	</body>
 </html>
