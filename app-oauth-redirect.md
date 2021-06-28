@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: page
+title: App OAuth Redirect
 ---
 
-{% include apps.html %}
+Loading…
 <script>
 	var url = new URL(window.location.href);
 	url.protocol = "com.pvieito.app-oauth-redirect";
