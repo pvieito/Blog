@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+{% include apps.html %}
+<script>
+	var url = new URL(window.location.href);
+	url.protocol = "com.pvieito.app-oath-redirect";
+	window.location.replace(url);
+</script>
