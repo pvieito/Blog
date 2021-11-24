@@ -13,7 +13,7 @@ You can download a shortcut [**here**][shortcut-url] that parses a `CSV` text an
 
 ### Introduction
 
-[**MakePass**][makepass] is a mighty Apple Wallet pass editor, with it you can create and customize a myriad of passes with complex layouts including images, barcodes, colors and text fields, but its the most powerful and versatile feature is it integration with the [Shortcuts app](https://support.apple.com/guide/shortcuts/welcome/ios) in iOS, iPad and macOS.
+[**MakePass**][makepass] is a mighty Apple Wallet pass editor, with it you can create and customize a myriad of passes with complex layouts including images, barcodes, colors and text fields, but its the most powerful and versatile feature is its integration with the [Shortcuts app](https://support.apple.com/guide/shortcuts/welcome/ios) in iOS, iPad and macOS.
 
 !["MakePass – “Create Pass” Action"](/media/2021/11/makepass-batch-create-pass-action.png)
 
@@ -23,7 +23,7 @@ You can download a shortcut [**here**][shortcut-url] that parses a `CSV` text an
 
 First you should create a pass file which will be used as a template. This template file will be set in the **Import Pass File** parameter of the **Create Pass** action which uses it as the base canvas over which to override any other parameter. If you do not import a pass file, the **Create Pass** action will use a blank template by default. You can create your own pass template file in MakePass or use [this one](/resources/downloads/UpMarket_Coupon.pkpass) as an example.
 
-Afterwards, to create multiple Apple Wallet passes in batch you should import the information which will be inserted in the pass template for each new pass. To do so, we can use the popular `CSV` (Comma Separated Values) format:
+Afterwards, to create multiple Apple Wallet passes in batch you should import the information which will be inserted in the pass template for each new pass. To do so, we can use the popular `CSV` (comma-separated values) format:
 
 ```csv
 John Appleseed,CD-0000001,2021-01-01 12:00
@@ -39,7 +39,7 @@ Once we have the `CSV` text loaded in the shortcut, we can split it by line and 
 
 !["MakePass – Batch Shortcut – 1"](/media/2021/11/makepass-batch-shortcut-1.png)
 
-After extracting the components we can simply set the **Import Pass File** and fill the custom parameters in the **Create Pass** action to complete the template:
+After extracting the components we can simply set our pass template file in the **Import Pass File** parameter and fill the other custom parameters in the **Create Pass** action to complete the template:
 
 !["MakePass – Batch Shortcut – 2"](/media/2021/11/makepass-batch-shortcut-2.png)
 
