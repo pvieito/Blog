@@ -21,7 +21,7 @@ You can download a shortcut [**here**][shortcut-url] that parses a `CSV` text an
 
 ### Process
 
-First you should create a pass file which will be used as a template. This template file will be set in the **Import Pass File** parameter of the **Create Pass** action which uses it as the base canvas over which to override any other parameter. If you do not import a pass file, the **Create Pass** action will use a blank template by default. You can create your own pass template file in MakePass or use [this one](/resources/downloads/UpMarket_Coupon.pkpass) as an example.
+First you should create a pass file which will be used as a template. This template file will be set in the **Import Pass File** parameter of the **Create Pass** action which uses it as the base canvas over which to override any other parameter. If you do not import a pass file, the **Create Pass** action will use a blank template by default. You can create your own pass template file in MakePass or use [this one](/resources/downloads/UpMarket_Coupon.pkpass.zip) as an example.
 
 Afterwards, to create multiple Apple Wallet passes in batch you should import the information which will be inserted in the pass template for each new pass. To do so, we can use the popular `CSV` (comma-separated values) format:
 
