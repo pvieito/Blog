@@ -3,20 +3,26 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-        <meta name="color-scheme" content="dark light">
-            
+		<meta name="color-scheme" content="dark light">
+
 		<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 		<link rel="stylesheet" href="/css/main.css">
 		<link rel="icon" href="/resources/icon.png">
 		<link rel="mask-icon" href="/resources/icon.svg" color="black">
 		<link rel="alternate" title="{{ site.title }}" type="application/atom+xml" href="/feed.xml" />
-        <link rel="alternate" title="{{ site.title }}" type="application/json" href="/feed.json" />
+		<link rel="alternate" title="{{ site.title }}" type="application/json" href="/feed.json" />
 
 		<!-- Google Analytics -->
 		<script async src="//www.google-analytics.com/analytics.js"></script>
 		<script>
 		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 		ga("create", "UA-33067442-1", "auto");
+		var urlParams = new URLSearchParams(window.location.search);
+		var utmSource = urlParams.get("utm_source");
+		var utmCampaign = urlParams.get("utm_campaign");
+		if (!utmSource && utmCampaign) {
+			ga("set", "campaignSource", utmCampaign);
+		}
 		ga("send", "pageview");
 		</script>
 	</head>
@@ -31,10 +37,10 @@
 				</p>
 				<nav id="title-links" class="links">
 					<a href="https://github.com/pvieito">GitHub</a>
-                    &bull;
-                    <a href="https://twitter.com/pvieito">Twitter</a>
-                    &bull;
-                    <a href="https://www.linkedin.com/in/pvieito/">LinkedIn</a>
+					&bull;
+					<a href="https://twitter.com/pvieito">Twitter</a>
+					&bull;
+					<a href="https://www.linkedin.com/in/pvieito/">LinkedIn</a>
 				</nav>
 			</header>
 			{{ content }}
