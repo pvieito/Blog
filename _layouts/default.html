@@ -23,7 +23,8 @@
 			var utmCampaign = urlParams.get("utm_campaign");
 			if (utmCampaign) {
 				if (!utmSource) {
-					ga("set", "campaignSource", utmCampaign);
+					var campaignSource = utmCampaign.split("-")[0];
+					ga("set", "campaignSource", campaignSource);
 				}
 				if (!utmMedium) {
 					ga("set", "campaignMedium", utmCampaign);
