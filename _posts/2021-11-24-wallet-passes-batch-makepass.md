@@ -9,7 +9,7 @@ lang: en
 
 You can download a shortcut [**here**][shortcut-url] that parses a `CSV` text and generates multiple passes in batch using [**MakePass**][makepass]:
 
-<video autoplay loop playsinline style="width: 100%;" src="/media/2021/11/makepass-batch-shortcut-demo.mp4"></video>
+<video autoplay loop playsinline muted style="width: 100%;" src="/media/2021/11/makepass-batch-shortcut-demo.mp4"></video>
 
 ### Introduction
 
