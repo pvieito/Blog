@@ -10,7 +10,7 @@ layout: default
 		var appNodeId = redirect == "" ? window.location.hash.substring(1) : "app-" + redirect;
 		var appNode = document.getElementById(appNodeId);
 		var appStoreURL = new URL(appNode.attributes["app-store-url"].value);
-		var utmCampaign = urlParams.get("utm_campaign");
+		var utmCampaign = urlParams.get("utm_campaign") || "pvieito-apps";
 		if (utmCampaign) {
 			appStoreURL.searchParams.set("pt", 111063803);
 			appStoreURL.searchParams.set("ct", utmCampaign);
