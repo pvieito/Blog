@@ -23,13 +23,21 @@ A HomeControl Automation URL will be now available in your pasteboard. By defaul
 - Devices will toggle their status (on to off and viceversa).
 - Homes will be set as the HomeKit primary home.
 
-You can customize these default Automation URL to unleash a lot of more actions. For example, device and device group Automation URLs can be modified so they always activate or deactivate the item instead of toggling its state by changing the `activation-mode` parameter to `activate` or `deactivate` instead of `toggle`:
+You can customize these default Automation URL to unleash a lot of more actions.
+
+#### Device Activation Modes
+
+Device and device group Automation URLs can be modified so they always activate or deactivate the item instead of toggling its state by changing the `activation-mode` parameter to `activate` or `deactivate` instead of `toggle`:
 
 - Toggle: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=switch-device-status&item-type=device&item-name=Outlet&room-name=Principal&home-name=Home&`**<span style="color:var(--default-text-color);">`activation-mode=toggle`</span>**<span style="color:var(--soft-gray-color);">`&authentication-token=TOKEN`</span>
 - Activate: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=switch-device-status&item-type=device&item-name=Outlet&room-name=Principal&home-name=Home&`**<span style="color:var(--default-text-color);">`activation-mode=activate`</span>**`&authentication-token=TOKEN`</span>
 - Deactivate: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=switch-device-status&item-type=device&item-name=Outlet&room-name=Principal&home-name=Home&`**<span style="color:var(--default-text-color);">`activation-mode=deactivate`</span>**`&authentication-token=TOKEN`</span>
 
+#### Primary Home Actions
+
 You can also remove the `home-name` parameter of the URL and it will be invoked on the device or scene named as the `item-name` available in the current primary home. This is handy if you have the same scene available in multiple homes and want to trigger the scene in the one you are at the moment the automation is triggered.
+
+#### Device Properties Actions
 
 There is a forth type of automation action that is not available directly with the “Copy Automation URL” shortcut, the `change-device-property` action. This action allows you to change a property of a device like light brightness, light color, thermostat mode, thermostat temperature or blinds position by setting the `property-type` and `property-value` parameters. These are some examples of what is posible with this powerful action type:
 
