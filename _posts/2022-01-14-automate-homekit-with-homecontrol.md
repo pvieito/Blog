@@ -24,11 +24,11 @@ A HomeControl Automation URL will be now available in your pasteboard. By defaul
 - Devices will toggle their status (on to off and viceversa).
 - Homes will be set as the HomeKit primary home.
 
-You can customize these default Automation URL to unleash a lot of more actions. For example, device and device group Automation URLs can be modified so they always activate or deactivate the item instead of toggling its state:
+You can customize these default Automation URL to unleash a lot of more actions. For example, device and device group Automation URLs can be modified so they always activate or deactivate the item instead of toggling its state by changing the `activation-mode` parameter to `activate` or `deactivate` insead of `toggle`:
 
-- Toggle: `homecontrol://x-callback-url/run-action?action-type=switch-device-status&item-type=device&item-name=Outlet&room-name=Principal&home-name=Home&activation-mode=toggle&authentication-token=TOKEN`
-- Activate: `homecontrol://x-callback-url/run-action?action-type=switch-device-status&item-type=device&item-name=Outlet&room-name=Principal&home-name=Home&activation-mode=activate&authentication-token=TOKEN`
-- Deactivate: `homecontrol://x-callback-url/run-action?action-type=switch-device-status&item-type=device&item-name=Outlet&room-name=Principal&home-name=Home&activation-mode=deactivate&authentication-token=TOKEN`
+- Toggle: `homecontrol://x-callback-url/run-action?action-type=switch-device-status&item-type=device&item-name=Outlet&room-name=Principal&home-name=Home&`**`activation-mode=toggle`**`&authentication-token=TOKEN`
+- Activate: `homecontrol://x-callback-url/run-action?action-type=switch-device-status&item-type=device&item-name=Outlet&room-name=Principal&home-name=Home&`**`activation-mode=activate`**`&authentication-token=TOKEN`
+- Deactivate: `homecontrol://x-callback-url/run-action?action-type=switch-device-status&item-type=device&item-name=Outlet&room-name=Principal&home-name=Home&`**`activation-mode=deactivate`**`&authentication-token=TOKEN`
 
 You can also remove the `home-name` parameter of the URL and it will be invoked on the device or scene named as the `item-name` available in the current primary home. This is handy if you have the same scene available in multiple homes and want to trigger the scene in the one you are at the moment the automation is triggered.
 
