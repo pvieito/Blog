@@ -32,7 +32,7 @@ You can customize these default Automation URL to unleash a lot of more actions.
 
 You can also remove the `home-name` parameter of the URL and it will be invoked on the device or scene named as the `item-name` available in the current primary home. This is handy if you have the same scene available in multiple homes and want to trigger the scene in the one you are at the moment the automation is triggered.
 
-There is a forth type of automation action that is not available directly with the “Copy Automation URL” shortcut, the `change-device-property` action. This action allows you to change a property of a device like light brightness, light color, thermostat mode, thermostat temperature or blinds position. These are some examples of what is posible with this powerful action type:
+There is a forth type of automation action that is not available directly with the “Copy Automation URL” shortcut, the `change-device-property` action. This action allows you to change a property of a device like light brightness, light color, thermostat mode, thermostat temperature or blinds position by setting the `property-type` and `property-value` parameters. These are some examples of what is posible with this powerful action type:
 
 - Set lightbulb named "Light" to 70% brightness: `homecontrol://x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Light&property-type=light-brightness&property-value=70&authentication-token=TOKEN`
 - Set lightbulb named "Light" to yellow color (hue 60°): `homecontrol://x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Light&property-type=light-hue&property-value=60&authentication-token=TOKEN`
