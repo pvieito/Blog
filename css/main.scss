@@ -13,6 +13,8 @@
     --structure-color: #D2D2D2;
     --base-color: #E2E2E2;
     --detail-color: #767676;
+    --soft-gray-color: #696969;
+    --default-text-color: #000000;
 }
 @media (prefers-color-scheme: dark) {
     :root {
@@ -20,6 +22,8 @@
         --structure-color: #4D4D4D;
         --base-color: #2D2D2D;
         --detail-color: #8C8C8C;
+        --soft-gray-color: #A9A9A9;
+        --default-text-color: #FFFFFF;
     }
 }
 
