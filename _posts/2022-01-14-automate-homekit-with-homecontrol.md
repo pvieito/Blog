@@ -33,7 +33,7 @@ Device and device group Automation URLs can be modified so they always activate 
 - Activate: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=switch-device-status&item-type=device&item-name=Outlet&room-name=Principal&home-name=Home&`**<span style="color:var(--default-text-color);">`activation-mode=activate`</span>**`&authentication-token=TOKEN`</span>
 - Deactivate: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=switch-device-status&item-type=device&item-name=Outlet&room-name=Principal&home-name=Home&`**<span style="color:var(--default-text-color);">`activation-mode=deactivate`</span>**`&authentication-token=TOKEN`</span>
 
-#### Primary Home Actions
+#### Current Home Actions
 
 You can also remove the `home-name` parameter of the URL and it will be invoked on the device or scene named as the `item-name` available in the current primary home. This is handy if you have the same scene available in multiple homes and want to trigger the scene in the one you are at the moment the automation is triggered.
 
