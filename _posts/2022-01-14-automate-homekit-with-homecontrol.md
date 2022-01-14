@@ -4,7 +4,6 @@ lang: en
 ---
 
 !["HomeControl – Automation"](/media/2022/01/homecontrol-automation-post.png)
-https://pvieito.com/media/2022/01/homecontrol-app-automation-url.png
 
 ### Introduction
 
