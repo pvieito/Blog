@@ -9,7 +9,7 @@ lang: en
 
 [**HomeControl**][homecontrol] is a powerful Mac app that allows you to control your HomeKit setup directly from the menu bar.
 
-**HomeControl** also includes full automation support for all the actions available in the app (triggering scenes, switching a device or device group status, changing the primary home and also changing device properties) with “x-callback-url”-compatible **Automation URLs** which can be easily invoked from ****AppleScript, Terminal and other apps**.
+**HomeControl** also includes full automation support for all the actions available in the app (triggering scenes, switching a device or device group status, changing the primary home and also changing device properties) with “x-callback-url”-compatible **Automation URLs** which can be easily invoked from **AppleScript, Terminal and other apps**.
 
 ### Automation URLs
 
