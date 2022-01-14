@@ -14,11 +14,11 @@ https://pvieito.com/media/2022/01/homecontrol-app-automation-url.png
 
 ### Automation URLs
 
-**HomeControl** Automation URLs can be easily generated from the “Customize Items” section available in the HomeControl preferences window. Just right-click an actionable item like a device or scene and select “Copy Automation URL”.
+HomeControl Automation URLs can be easily generated from the “Customize Items” section available in the HomeControl preferences window. Just right-click an actionable item like a device or scene and select “Copy Automation URL”.
 
 ![HomeControl – Copy Automation URL](/media/2022/01/homecontrol-app-automation-url.png)
 
-A **HomeControl** Automation URL will be now available in your pasteboard. By default, Automation URLs run the same action that is executed when clicking on the item in the menu bar:
+A HomeControl Automation URL will be now available in your pasteboard. By default, Automation URLs run the same action that is executed when clicking on the item in the HomeControl menu:
 
 - Scenes will be triggered.
 - Devices will toggle their status (on to off and viceversa).
@@ -43,7 +43,7 @@ There is a forth type of automation action that is not available directly with t
 
 ### Automation & Scripting
 
-You can easily invoke **HomeControl** Automation URLs from AppleScript, Terminal or other apps like [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios), [Keyboard Maestro](https://www.keyboardmaestro.com/) or [Stream Deck](https://www.elgato.com/es/stream-deck).
+You can easily invoke [**HomeControl**][homecontrol] Automation URLs from AppleScript, Terminal or other apps like [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios), [Keyboard Maestro](https://www.keyboardmaestro.com/) or [Stream Deck](https://www.elgato.com/es/stream-deck).
 
 #### AppleScript
 
