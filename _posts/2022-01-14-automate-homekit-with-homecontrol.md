@@ -37,7 +37,7 @@ Device and device group Automation URLs can be modified so they always activate 
 
 You can also remove the `home-name` parameter of the URL and it will be invoked on the device or scene named as the `item-name` available in the current primary home. This is handy if you have the same scene available in multiple homes and want to trigger the scene in the one you are at the moment the automation is triggered.
 
-#### Device Properties Actions
+#### Device Property Actions
 
 There is a forth type of automation action that is not available directly with the “Copy Automation URL” shortcut, the `change-device-property` action. This action allows you to change a property of a device like light brightness, light color, thermostat mode, thermostat temperature or blinds position by setting the `property-type` and `property-value` parameters. These are some examples of what is posible with this powerful action type:
 
