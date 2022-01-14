@@ -68,4 +68,4 @@ $ open -g "homecontrol://…"
 
 Simply use an “Open URL” action and set it to launch the Automation URL. Some apps also support running Terminal scripts or AppleScript.
 
-[homecontrol]: https://pvieito.com/apps?redirect=homecontrol&utm_campaign=pvieito-post-automation#app-homecontrol
+[homecontrol]: https://pvieito.com/apps?redirect=homecontrol&utm_campaign=pvieito-post-homecontrol-automation#app-homecontrol
