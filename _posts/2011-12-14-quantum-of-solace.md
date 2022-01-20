@@ -3,7 +3,7 @@ title: Sobre “Quantum of Solace”
 lang: es
 ---
 
-Daniel Craig, en una entrevista en Time Out London:
+Daniel Craig, en una entrevista en [Time Out London](https://www.timeout.com/london/feature/2002/daniel-craig-exclusive-interview):
 
 > P: Parece que el guión a veces se estropea en las grandes producciones.
 >

@@ -3,13 +3,13 @@ title: FAQ de OS X Mountain Lion
 lang: es
 ---
 
-### ¿Que aplicaciones usan el _Centro de Notificaciones_?
+### ¿Qué aplicaciones usan el _Centro de Notificaciones_?
 
   * Las que vienen en el propio sistema (Mail, Calendario, Recordatorios,…)
   * [Twitter][1]
   * [FiveLive][2] de David Smith
 
-### ¿Por que las notificaciones integradas de Twitter te llevan a Twitter.com?
+### ¿Por qué las notificaciones integradas de Twitter te llevan a Twitter.com?
 
 Desactívalas ya e instala la [aplicación oficial de Twitter][1].
 
