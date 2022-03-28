@@ -14,25 +14,34 @@
 		<link rel="alternate" title="{{ site.title }}" type="application/atom+xml" href="/feed.xml" />
 		<link rel="alternate" title="{{ site.title }}" type="application/json" href="/feed.json" />
 		<!-- Google Analytics -->
-		<script async src="//www.google-analytics.com/analytics.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-6VBC2YFBCG"></script>
 		<script>
-			window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-			ga("create", "UA-33067442-1", "auto");
 			var urlParams = new URLSearchParams(window.location.search);
 			var utmSource = urlParams.get("utm_source");
 			var utmMedium = urlParams.get("utm_medium");
 			var utmCampaign = urlParams.get("utm_campaign");
+			
 			if (utmCampaign) {
 				if (!utmSource) {
 					var campaignSource = utmCampaign.split("-")[0];
-					ga("set", "campaignSource", campaignSource);
+					utmSource = campaignSource;
 				}
 				if (!utmMedium) {
-					ga("set", "campaignMedium", utmCampaign);
+					utmMedium = utmCampaign;
 				}
-				ga("set", "campaignName", utmCampaign);
 			}
-			ga("send", "pageview");
+			
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag("js", new Date());
+			gtag(
+				"config", "G-6VBC2YFBCG", {
+					campaign: {
+						source: utmSource,
+						medium: utmMedium,
+						medium: utmCampaign
+					}
+				});
 		</script>
 	</head>
 	<body>
