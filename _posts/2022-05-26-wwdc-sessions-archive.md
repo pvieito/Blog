@@ -3,7 +3,163 @@ title: "WWDC Sessions Archive"
 lang: en
 ---
 
-This page contains links to the videos of WWDC sessions that are not currently available directly on the [Apple Developer website](https://developer.apple.com/videos/all-videos/). The videos are hosted by Apple so you may need to login with you Apple Developer account to be able to view or download them.
+!["WWDC Sessions Archive"](/media/2022/05/wwdc-sessions-archive.png)
+
+### Notes
+
+- Currently this archive contains links for the sessions of [WWDC 2008](#wwdc-2008) and [WWDC 2009](#wwdc-2009).
+- The videos are hosted by Apple so you may need to login with your Apple Developer account to be able to view or download them.
+- Unfortunately, some of the sessions do not have a video link since I have not been able to found them.
+- Recent WWDC session videos can be found directly on [Apple Developer website](https://developer.apple.com/videos/all-videos/).
+
+### WWDC 2008
+
+- [Session 100 – Introduction to Mac and iPhone Development](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/100.m4v)
+- Session 101 – Getting Started with Mac OS X Administration
+- Session 102 – Integrating Your Organization's First Macs
+- Session 105 – Publishing on the App Store
+- [Session 300 – Mac OS X State of the Union](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/300.m4v)
+- Session 312 – iPhone Application Development Fundamentals
+- Session 313 – Getting Started with Web Development for Safari on iPhone
+- Session 314 – Java and WebObjects Overview
+- Session 324 – iPhone for Mac Developers
+- [Session 325 – Safari and WebKit Overview: Features, Enhancements, and Open Source Development](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/325.m4v)
+- [Session 326 – Application Accessibility](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/326.m4v)
+- [Session 327 – Building Great Java Applications on Mac OS X Leopard](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/327.m4v)
+- [Session 328 – Networking with Bonjour](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/328.m4v)
+- Session 337 – Understanding iPhone View Controllers
+- [Session 338 – Mac OS X 64-bit Kernel: Architecture and Kernel Extension Transition](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/338.m4v)
+- [Session 339 – Getting Started with Objective-C:  Migrating from Other Languages](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/339.m4v)
+- [Session 340 – Creating Secure Applications for iPhone and Mac OS X](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/340.m4v)
+- Session 343 – Understanding iPhone Table Views
+- [Session 344 – Adding Rich Graphics and Media to Web Content in Safari](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/344.m4v)
+- [Session 345 – Managing Certificates for iPhone and Mac OS X](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/345.m4v)
+- [Session 348 – Cocoa Fundamentals](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/348.m4v)
+- [Session 349 – Creating Rich User Interfaces for Web Content in Safari](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/349.m4v)
+- Session 351 – iPhone Application User Interface Design
+- Session 352 – Web Development for iPhone: Tips, Tricks, and Advanced Techniques
+- [Session 353 – What's New in Objective-C](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/353.m4v)
+- Session 362 – Controls, Views, and Animation on iPhone
+- [Session 363 – What's New in Cocoa](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/363.m4v)
+- [Session 364 – Font Management and Core Text](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/364.m4v)
+- [Session 374 – Internationalizing Your Software](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/374.m4v)
+- [Session 375 – Using Filesystem APIs Efficiently](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/375.m4v)
+- Session 379 – Enhancing Your iPhone Web Application with CSS Transforms and Animations
+- Session 380 – iPhone Multi-Touch Events and Gestures
+- [Session 381 – Core Data Tips and Tricks](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/381.m4v)
+- [Session 382 – Simplifying Multicore with Grand Central Dispatch](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/382.m4v)
+- Session 387 – Text Input on iPhone
+- Session 391 – Building an Advanced iPhone Web Application, Hands On
+- [Session 392 – Cocoa Tips and Tricks: Using Leopard Features Effectively](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/392.m4v)
+- [Session 393 – Managing User Privileges and Operations with Authorization Services](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/393.m4v)
+- [Session 401 – Leveraging Cocoa's Layer-Backed Views](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/401.m4v)
+- Session 402 – Managing Secure Data on iPhone
+- [Session 403 – Using Advanced AJAX Technologies in Safari](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/403.m4v)
+- Session 410 – Mastering iPhone View Controllers
+- [Session 411 – Utilizing Offline Data in Safari](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/411.m4v)
+- [Session 412 – Cocoa Performance Techniques](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/412.m4v)
+- [Session 413 – Assigning Your Application an Identity with Code Signing](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/413.m4v)
+- Session 417 – Optimizing Performance in iPhone Applications
+- [Session 418 – Debugging Websites Using Safari's Integrated Developer Tools](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/418.m4v)
+- [Session 419 – Polishing Your Cocoa Application](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/419.m4v)
+- [Session 420 – Using Garbage Collection with Objective-C](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/420.m4v)
+- [Session 421 – Introduction to Kerberos](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/421.m4v)
+- [Session 425 – Performance in Document-Centric Cocoa Applications](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/425.m4v)
+- [Session 426 – Creating Ruby on Rails Applications for Safari on iPhone and the Desktop](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/426.m4v)
+- [Session 427 – Managing X.509 Certificates and Digital Identities](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/427.m4v)
+- Session 432 – Mastering iPhone Table Views
+- [Session 433 – Building Native Look-and-Feel Web Applications Using SproutCore](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/433.m4v)
+- [Session 434 – Getting Started with the I/O Kit: Device Drivers on Mac OS X](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/434.m4v)
+- [Session 435 – Configuring the Apple AirPort Interface](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/435.m4v)
+- Session 446 – How Do I Do That? Tips and Tricks for iPhone Application Development
+- [Session 447 – Maximizing Platform Compatibility of I/O Kit Drivers](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/447.m4v)
+- [Session 453 – Using Vectorization Techniques to Maximize Performance](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/453.m4v)
+- [Session 454 – Improving Responsiveness in Websites and Web Applications](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/454.m4v)
+- [Session 455 – Kernel Extension Management](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/455.m4v)
+- Session 456 – The KPCB iFund
+- Session 500 – Mac OS X Server State of the Union
+- Session 501 – Integrating iPhone with IT
+- Session 504 – Deploying Network and Portable Home Directories
+- Session 505 – Integrating iTunes U into Your Workflows and Infrastructure
+- Session 511 – Enterprise iPhone Management with Configuration Profiles
+- Session 512 – Deploying the Mac in a Highly Secure Environment
+- [Session 513 – System-Wide Previews with Quick Look](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/513.m4v)
+- Session 514 – What's New for Podcast Producer
+- Session 515 – Best Practices for Tiger to Leopard Server Migration
+- [Session 516 – Sync Services: A Complete Tour](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/516.m4v)
+- Session 517 – Managing Clients and Preferences with Mac OS X and Leopard Server
+- Session 520 – Deploying and Scaling iCal Server Calendaring Services
+- [Session 523 – Keeping Users Connected with the Instant Message Framework](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/523.m4v)
+- [Session 525 – Cocoa Development Using Scripting](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/525.m4v)
+- [Session 526 – Latent Semantic Mapping](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/526.m4v)
+- [Session 527 – Sharing Live Content Through iChat Theater](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/527.m4v)
+- Session 529 – Address Book for iPhone
+- Session 533 – Customizing and Extending Leopard Server Wiki Server
+- [Session 534 – Spotlight: Search and Be Searched](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/534.m4v)
+- Session 535 – Podcast Producer In-Depth
+- [Session 539 – Making Your Application Scriptable](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/539.m4v)
+- Session 540 – Deploying Podcast Producer
+- Session 541 – Scripting for System Administrators
+- Session 543 – Deploying Final Cut Server
+- Session 546 – iPhone Device APIs: Location, Accelerometer and Camera
+- [Session 547 – Building and Leveraging Automator Actions](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/547.m4v)
+- Session 549 – Extending and Troubleshooting Directory Services
+- Session 550 – Integrating with Final Cut Server
+- [Session 551 – Providing User Assistance with Apple Help](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/551.m4v)
+- Session 552 – Unleashing Leopard Server Performance
+- [Session 556 – Accessing Contacts and Calendars on Leopard](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/556.m4v)
+- Session 557 – Infrastructure and Deployment Techniques for Large-Scale On-Demand Content Delivery with the Mac
+- Session 558 – Best Practices in Mac OS X Administration Panel
+- [Session 700 – Graphics & Media State of the Union](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/700.m4v)
+- [Session 701 – Handling PDF Content in Your Application](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/701.m4v)
+- [Session 702 – Getting Started with OpenGL on the Mac](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/702.m4v)
+- Session 703 – Introduction to Game Development for iPhone
+- [Session 704 – Understanding the Core Audio Architecture](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/704.m4v)
+- Session 706 – Audio Development for iPhone
+- [Session 707 – Mastering the Mac Graphics Architecture](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/707.m4v)
+- Session 708 – 3D Graphics for iPhone using OpenGL ES
+- [Session 709 – High-Performance Image Processing with Core Image](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/709.m4v)
+- [Session 710 – Integrating Media into Your Application with QTKit](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/710.m4v)
+- [Session 711 – 2D Graphics & Animation for iPhone and Mac](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/711.m4v)
+- [Session 712 – Advanced Media Application Development](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/712.m4v)
+- [Session 716 – Core Animation Techniques for iPhone and Mac](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/716.m4v)
+- [Session 719 – Advances in Modern OpenGL](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/719.m4v)
+- [Session 722 – Preparing and Delivering Video for iPhone, Safari, and Apple TV](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/722.m4v)
+- [Session 723 – Tuning OpenGL Applications for the Mac](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/723.m4v)
+- [Session 724 – Introducing OpenCL](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/724.m4v)
+- [Session 725 – Application Printing in Mac OS X](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/725.m4v)
+- [Session 727 – Advanced OpenCL](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/727.m4v)
+- [Session 731 – Integrating and Extending Quartz Composer](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/731.m4v)
+- [Session 735 – Image Capture, Manipulation, and Display with Image Kit](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/735.m4v)
+- [Session 736 – Extending and Integrating Post-Production Applications with Final Cut Pro](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/736.m4v)
+- [Session 737 – FxPlug Development for Motion and Final Cut Pro](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/737.m4v)
+- [Session 739 – Extending Aperture with Image Editing Plug-Ins](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/739.m4v)
+- [Session 900 – Developer Tools State of the Union](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/900.m4v)
+- Session 901 – Introduction to the iPhone Development Tools
+- Session 902 – Using WebObjects to Build Powerful Web Applications
+- Session 903 – Introducing Address Book Server
+- [Session 906 – Xcode for Visual Studio and Eclipse Developers](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/906.m4v)
+- [Session 907 – New Compiler Technology and Future Directions](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/907.m4v)
+- Session 908 – Managing Mac OS X with Netboot, Managed Preferences and Apple Remote Desktop
+- [Session 910 – Designing Applications with Interface Builder](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/910.m4v)
+- [Session 911 – Advanced Performance Profiling Techniques with Shark](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/911.m4v)
+- [Session 915 – Using Xcode: Source Editor, Refactoring, Debugger, and SCM](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/915.m4v)
+- [Session 916 – Getting Started with Instruments](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/916.m4v)
+- [Session 917 – What's New in Core Data](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/917.m4v)
+- [Session 919 – Understanding the Xcode Project Management and Build System](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/919.m4v)
+- Session 920 – Best Practices for Large-Scale Xsan 2 Deployments
+- Session 921 – Using Dashcode to Create and Debug iPhone Web Applications
+- [Session 922 – Creating Efficient Data Models with Core Data](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/922.m4v)
+- [Session 923 – Mastering Interface Builder](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/923.m4v)
+- Session 925 – Debugging and Profiling Your iPhone Application
+- [Session 930 – Using DTrace on Mac OS X](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/930.m4v)
+- [Session 932 – Performance Tuning Your Application with Shark](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/932.m4v)
+- [Session 933 – LLVM Compilers In Depth](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/933.m4v)
+- [Session 935 – Advanced Performance Analysis with Instruments & DTrace](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/935.m4v)
+- [Session 936 – Intel's Multi-Core Software Visio](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/936.m4v)
+- [Session 938 – Creating Widgets with Dashcode](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/938.m4v)
+- [Session 939 – Performance Optimization Techniques using Intel Libraries](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/939.m4v)
+- [Session 940 – Mastering Advanced Objective-C Features](https://download.developer.apple.com/wwdc_2008/adc_on_itunes__wwdc08_sessions__mac_track__videos/940.m4v)
 
 ### WWDC 2009
 
@@ -22,22 +178,21 @@ This page contains links to the videos of WWDC sessions that are not currently a
 - [Session 112 – Text Processing in Cocoa](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/112__text_processing_in_cocoa.m4v)
 - [Session 113 – Mac Programming for iPhone Developers](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/113__mac_programming_for_iphone_developers.m4v)
 - [Session 114 – What's New in Core Data](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/114__whats_new_in_core_data.m4v)
-- [Session 114 – What's New in Core Data](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/114__whats_new_in_core_data.m4v)
 - [Session 115 – What's New in Cocoa](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/115__whats_new_in_cocoa.m4v)
 - [Session 116 – Cocoa Tips and Tricks](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/116__cocoa_tips_and_tricks.m4v)
 - [Session 117 – User Events in Cocoa](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/117__user_events_in_cocoa.m4v)
 - [Session 118 – Embedding Maps in iPhone Applications](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/118__embedding_maps_in_iphone_applications.m4v)
 - [Session 119 – Finding Your Place with Core Location](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/119__finding_your_place_with_core_location.m4v)
 - [Session 120 – Apple Push Notification Service](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/120__apple_push_notification_service.m4v)
-- [Session 121 – iPhone accessibility - Make your app compatible with VoiceOver](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/121__iphone_accessibility__make_your_app_compatible_with_voiceover.m4v)
+- Session 121 – iPhone accessibility: Make your app compatible with VoiceOver
 - [Session 122 – In-App Purchase on iPhone](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/122__inapp_purchase_on_iphone.m4v)
 - [Session 123 – iPhone View Controller Techniques](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/123__iphone_view_controller_techniques.m4v)
 - [Session 124 – Displaying Web Content in iPhone Applications](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/124__displaying_web_content_in_iphone_applications.m4v)
 - [Session 125 – Effective iPhone App Architecture](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/125__effective_iphone_app_architecture.m4v)
 - [Session 126 – Enabling Your Mac Applications for Assistive Technologies](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/126__enabling_your_mac_applications_for_assistive_technologies.m4v)
-- [Session 127 – Advanced Accessibility - Best Practices and New APIs in Snow Leopard](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/127__advanced_accessibility_best_practices_and_new_apis_in_snow_leopard.m4v)
+- [Session 127 – Advanced Accessibility: Best Practices and New APIs in Snow Leopard](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/127__advanced_accessibility_best_practices_and_new_apis_in_snow_leopard.m4v)
 - [Session 128 – Prototyping iPhone User Interfaces](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/128__prototyping_iphone_user_interfaces.m4v)
-- [Session 129 – Text-to-Speech - Adventures with Alex](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/129__texttospeech_adventures_with_alex.m4v)
+- [Session 129 – Text-to-Speech: Adventures with Alex](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/129__texttospeech_adventures_with_alex.m4v)
 - Session 130 – Performance Tuning with Shark and Intel's Processor Performance Events
 - [Session 131 – Scaling Performance Using Grand Central Dispatch & Intel Libraries](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/131__scaling_performance_using_grand_central_dispatch_and_intel_libraries.m4v)
 - [Session 132 – iPhone Views and Animations](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/132__iphone_views_and_animations.m4v)
@@ -51,7 +206,7 @@ This page contains links to the videos of WWDC sessions that are not currently a
 - [Session 208 – Creating Safari Web Applications in Dashcode](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/208__creating_safari_web_applications_in_dashcode.m4v)
 - [Session 209 – Improving Accessibility in Web Applications](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/209__improving_accessibility_in_web_applications.m4v)
 - [Session 300 – Graphics and Media State of the Union](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/300__graphics_and_media_state_of_the_union.m4v)
-- Session 301 – Graphics and Media State of the Union
+- [Session 301 – Color Management for Snow Leopard](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/301__color_management_for_snow_leopard.m4v)
 - [Session 302 – Getting Started with Graphics for iPhone](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/302__getting_started_with_graphics_for_iphone.m4v)
 - [Session 303 – Core Animation Techniques for iPhone and Mac](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/303__core_animation_techniques_for_iphone_and_mac.m4v)
 - [Session 304 – Game Development for iPhone, Part 1](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/304__game_development_for_iphone_part_1.m4v)
@@ -93,11 +248,11 @@ This page contains links to the videos of WWDC sessions that are not currently a
 - [Session 419 – Objective-C and Garbage Collection Advancements](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/419__objectivec_and_garbage_collection_advancements.m4v)
 - [Session 420 – Introduction to Objective-C](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/420__introduction_to_objectivec.m4v)
 - [Session 421 – Introduction to Core Data on iPhone](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/421__introduction_to_core_data_on_iphone.m4v)
-- [Session 422 – State of the Art Cocoa - Application Design](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/422__state_of_the_art_cocoa_application_design.m4v)
+- [Session 422 – State of the Art Cocoa: Application Design](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/422__state_of_the_art_cocoa_application_design.m4v)
 - [Session 423 – Introduction to iPhone Development Tools](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/423__introduction_to_iphone_development_tools.m4v)
 - [Session 424 – Introduction to Cocoa and Cocoa Touch Development with Xcode](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/424__introduction_to_cocoa_and_cocoa_touch_development_with_xcode.m4v)
 - [Session 425 – Designing Your Cocoa Application for Concurrency](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/425__designing_your_cocoa_application_for_concurrency.m4v)
-- [Session 426 – State of the Art Cocoa - User Interface Design](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/426__state_of_the_art_cocoa_user_interface_design.m4v)
+- Session 426 – State of the Art Cocoa:  User Interface Design
 - Session 500 – Managing Processes with launchd
 - [Session 501 – Managing Kernel Extensions](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/501__managing_kernel_extensions.m4v)
 - [Session 502 – Creating I/O Kit Drivers for Multiple Architectures and OS Versions](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/502__creating_io_kit_drivers_for_multiple_architectures_and_os_versions.m4v)
@@ -114,7 +269,7 @@ This page contains links to the videos of WWDC sessions that are not currently a
 - [Session 605 – Contact Management with Snow Leopard Server, Snow Leopard, and iPhone](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/605__contact_management_with_snow_leopard_server_snow_leopard_and_iphone.m4v)
 - [Session 606 – Adding Authentication, Authorization, and Access Controls with the Open Directory Framework](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/606__adding_authentication_authorization_and_access_controls_with_the_open_directory_framework.m4v)
 - [Session 607 – Using Services in Snow Leopard for Scripting IT Tasks](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/607__using_services_in_snow_leopard_for_scripting_it_tasks.m4v)
-- [Session 608 – Snow Leopard Server Setup - Under the Hood](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/608__snow_leopard_server_setup_under_the_hood.m4v)
+- [Session 608 – Snow Leopard Server Setup: Under the Hood](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/608__snow_leopard_server_setup_under_the_hood.m4v)
 - [Session 609 – Podcast Composer In-Depth](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__mac_track__video/609__podcast_composer_indepth.m4v)
 - [Session 610 – Mac OS X Server State of the Union](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/610__mac_os_x_server_state_of_the_union.m4v)
 - [Session 611 – What's New for Wiki Server 2](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/611__whats_new_for_wiki_server_2.m4v)
@@ -135,3 +290,4 @@ This page contains links to the videos of WWDC sessions that are not currently a
 - [Session 700 – WWDC Sessions Kickoff](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/700__wwdc_sessions_kickoff.m4v)
 - [Session 701 – Core OS State of the Union](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/701__core_os_state_of_the_union.m4v)
 - [Session 702 – Publishing on the App Store](https://download.developer.apple.com/wwdc_2009/adc_on_itunes__wwdc09_sessions__iphone_track__video/702__publishing_on_the_app_store.m4v)
+
