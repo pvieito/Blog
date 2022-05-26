@@ -3,7 +3,7 @@ title: "WWDC Sessions Archive"
 lang: en
 ---
 
-!["WWDC Sessions Archive"](/media/2022/05/wwdc-sessions-archive.png)
+!["WWDC Sessions Archive"](/media/2022/05/wwdc-sessions-archive.jpg)
 
 ## Introduction
 
