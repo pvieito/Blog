@@ -5,7 +5,7 @@ lang: en
 
 !["WWDC Sessions Archive"](/media/2022/05/wwdc-sessions-archive.png)
 
-### Introduction
+## Introduction
 
 This archive of WWDC sessions is meant to extend the current collection of videos available on [Apple Developer website](https://developer.apple.com/videos/all-videos/) with all the sessions prior to WWDC 2017 that are not available there but continue to be hosted by Apple servers. 
 
