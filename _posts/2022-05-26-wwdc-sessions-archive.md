@@ -36,140 +36,140 @@ This archive of WWDC sessions is meant to extend the current collection of video
 
 ### WWDC 2007
 
-- [Session 100 – Coming to the Mac OS X Platform – Part 1 – The Mac OS X Architecture](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/100_cc.mov)
-- [Session 101 – Coming to the Mac OS X Platform – Part 2 – Frameworks, APIs and Tools](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/101_cc.mov)
-- [Session 102 – Threading for Performance Using OpenMP and Intel Threading Building Blocks](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/102_cc.mov)
-- [Session 103 – Getting Started with Core Data](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/103_cc.mov)
-- [Session 104 – Getting Started with Mac OS X Kernel Programming](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/104_cc.mov)
-- [Session 105 – Optimizing Your Core Data Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/105_cc.mov)
-- [Session 106 – Fundamentals of Kernel Debugging](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/106_cc.mov)
-- [Session 107 – Students - Getting the Most out of WWDC](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/107_cc.mov)
-- [Session 108 – Mac OS X File Systems – A Walkthrough For Developers and IT Professionals](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/108_cc.mov)
-- [Session 109 – Code Hardening Techniques](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/109_cc.mov)
-- [Session 110 – Cocoa Today](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/110_cc.mov)
-- [Session 111 – Managing Schema Versioning and Data Migration in Your Core Data Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/111_cc.mov)
-- [Session 112 – From Power On to Login – Inside the Mac OS X Leopard Boot Process](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/112_cc.mov)
-- [Session 114 – Developing for UNIX on Mac OS X](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/114_cc.mov)
-- [Session 115 – Getting Started with Cocoa Bindings](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/115_cc.mov)
-- [Session 116 – Students-Packets of Pure Power](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/116_cc.mov)
-- [Session 117 – Discovering Network Services Using Bonjour](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/117_cc.mov)
-- [Session 119 – Managing Processes with launchd](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/119_cc.mov)
-- [Session 125 – Building a Custom Control for Your Cocoa Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/125_cc.mov)
-- [Session 127 – Getting Started with Core Text](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/127_cc.mov)
-- [Session 128 – Cocoa Drawing Techniques](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/128_cc.mov)
-- [Session 130 – Cocoa Scripting Enhancements in Leopard](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/130_cc.mov)
-- [Session 131 – Add WYSIWYG HTML Editing to Your Web Page or Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/131_cc.mov)
-- [Session 134 – Customizing the Cocoa Text System](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/134_cc.mov)
-- [Session 136 – Modernizing Your Text Rendering with Core Text](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/136_cc.mov)
-- [Session 138 – Discover Java on Mac OS X Leopard](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/138_cc.mov)
-- [Session 139 – Partitioning Your Cocoa Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/139_cc.mov)
-- [Session 140 – Developing Cocoa Applications with Python and Ruby](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/140_cc.mov)
-- [Session 141 – Boosting Responsiveness and Performance in Your Cocoa Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/141_cc.mov)
-- [Session 145 – See What's New in HIToolbox](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/145_cc.mov)
-- [Session 146 – Sign Your Application to Increase Security and Ensure Code Integrity](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/146_cc.mov)
-- [Session 147 – Advanced Java Development on Mac OS X](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/147_cc.mov)
-- [Session 154 – Leveraging SOAP Technologies on Mac OS X](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/154_cc.mov)
-- [Session 156 – Writing an Input Method Using the Input Method Kit](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/156_cc.mov)
-- [Session 157 – Extending Your Application with JavaScript](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/157_cc.mov)
-- [Session 158 – Adding Accessibility Support to Your Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/158_cc.mov)
-- [Session 161 – Making Your Custom Controls, Icons, and Artwork Resolution Independent](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/161_cc.mov)
-- [Session 164 – Professional Audio Input and Output with Leopard](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/164_cc.mov)
-- [Session 166 – Improving User Experience with Effective Power Management](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/166_cc.mov)
-- [Session 200 – Mac OS X State of the Union](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/200_cc.mov)
-- [Session 201 – Effective Widget Creation with Dashcode 2](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/201_cc.mov)
-- [Session 202 – Broadcast Your Application's Content with iChat Theater](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/202_cc.mov)
-- [Session 203 – Coding Smarter with Objective-C 2.0](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/203_cc.mov)
-- [Session 204 – Fostering User Interaction with iChat](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/204_cc.mov)
-- [Session 205 – Making Your Application Scriptable](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/205_cc.mov)
-- [Session 206 – Building Automator Actions 2](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/206_cc.mov)
-- [Session 207 – Integrating iCal Events and Tasks into Your Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/207_cc.mov)
-- [Session 209 – Getting Started with Address Book](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/209_cc.mov)
-- [Session 210 – Building Animated Cocoa User Interfaces](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/210_cc.mov)
-- [Session 210 – Building Animated Cocoa User Interfaces](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/210_cc.mov)
-- [Session 211 – Adding Core Animation to Your Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/211_cc.mov)
-- [Session 211 – Adding Core Animation to Your Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/211_cc.mov)
-- [Session 213 – Getting Started with Spotlight and Quick Look](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/213_cc.mov)
-- [Session 215 – Embracing Automator Workflows with Your Application 2](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/215_cc.mov)
-- [Session 216 – Time Machine In-Depth](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/216_cc.mov)
-- [Session 217 – Unlocking the Potential of Dashcode](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/217_cc.mov)
-- [Session 218 – Garbage Collection Strategies for Objective-C 2.0](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/218_cc.mov)
-- [Session 220 – Leopard User Interface Design](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/220_cc.mov)
-- [Session 221 – Handling Images with the Image Kit](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/221_cc.mov)
-- [Session 222 – Using Advanced Objective-C 2.0 Features](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/222_cc.mov)
-- [Session 223 – Adopting 64-bit Programming](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/223_cc.mov)
-- [Session 224 – Next Generation Automation – AppleScript, Automator and Scripting Bridge](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/224_cc.mov)
-- [Session 300 – Developer Tools State of the Union](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/300_cc.mov)
-- [Session 301 – Getting Started with Mac OS X Development Tools](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/301_cc.mov)
-- [Session 302 – Getting Started with Xcode](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/302_cc.mov)
-- [Session 304 – Creating Custom Installers with Leopard's New PackageMaker](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/304_cc.mov)
-- [Session 305 – Xcode 3.0 – The New Development Workflow](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/305_cc.mov)
-- [Session 306 – Interface Builder 3.0 – Creating an Interface from Start to Finish](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/306_cc.mov)
-- [Session 309 – Getting Started with Xray](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/309_cc.mov)
-- [Session 311 – Unleashing the Power of the Xcode Build System](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/311_cc.mov)
-- [Session 312 – Refactoring in Xcode – Automatic Project-wide Code Changes](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/312_cc.mov)
-- [Session 314 – Project-Free Xcode – Mixed Language Development](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/314_cc.mov)
-- [Session 315 – Tracing Software Behavior with DTrace](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/315_cc.mov)
-- [Session 316 – Getting Started – Performance Tuning with Shark](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/316_cc.mov)
-- [Session 317 – Taking Advantage of Compiler Advances](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/317_cc.mov)
-- [Session 318 – Using Xray and DTrace for In-depth Analysis](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/318_cc.mov)
-- [Session 319 – Developing Plugins for Interface Builder](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/319_cc.mov)
-- [Session 323 – Fortran Development and HPC on Mac OS X – 3rd Party Solutions](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/323_cc.mov)
-- [Session 324 – Bug Reporting Best Practices](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/324_cc.mov)
-- [Session 400 – Graphics and Media State of the Union](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/400_cc.mov)
-- [Session 401 – Creating Leading-edge 2D Graphics with Quartz](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/401_cc.mov)
-- [Session 402 – Understanding the Architecture of Core Audio](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/402_cc.mov)
-- [Session 403 – Creating Integrated Workflow Solutions with Final Cut Pro](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/403_cc.mov)
-- [Session 404 – Queueing, Streaming, and Extending Core Audio](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/404_cc.mov)
-- [Session 407 – Extending the Aperture RAW Workflow with Export Plug-Ins](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/407_cc.mov)
-- [Session 408 – Modernizing Your OpenGL Application for Leopard](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/408_cc.mov)
-- [Session 409 – Mastering QuickTime Digital Video Techniques](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/409_cc.mov)
-- [Session 410 – Introduction to FxPlug Development for Final Cut Studio](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/410_cc.mov)
-- [Session 411 – Advanced FxPlug Development for Final Cut Studio](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/411_cc.mov)
-- [Session 414 – Creating High-quality Content With QuickTime APIs](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/414_cc.mov)
-- [Session 415 – Mastering the Quartz Composer Editor](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/415_cc.mov)
-- [Session 416 – Integrating QuickTime Support into Your Application with QTKit](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/416_cc.mov)
-- [Session 417 – Switching to Mac OS X OpenGL](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/417_cc.mov)
-- [Session 418 – Leveraging the OpenGL Shading Language (GLSL)](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/418_cc.mov)
-- [Session 419 – Printing with Style in Mac OS X](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/419_cc.mov)
-- [Session 420 – Tune Your OpenGL Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/420_cc.mov)
-- [Session 421 – Using Quartz Composer in Your Application 2](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/421_cc.mov)
-- [Session 424 – Create Stunning Effects with Core Image](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/424_cc.mov)
-- [Session 429 – Tune Your 2D Graphics Code](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/429_cc.mov)
-- [Session 430 – Manipulating PDF Content in Your Application](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/430_cc.mov)
-- [Session 431 – Leveraging the Common Unix Printing System (CUPS)](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/431_cc.mov)
-- [Session 500 – IT State of the Union](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/500_cc.mov)
-- [Session 501 – Welcome to Leopard Server](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/501_cc.mov)
-- [Session 502 – Getting Started with Mac OS X Administration](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/502_cc.mov)
-- [Session 503 – Scripting for SysAdmins](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/503_cc.mov)
-- [Session 504 – Mac OS X Security Configuration](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/504_cc.mov)
-- [Session 505 – Discovering Wiki and Group Services in Leopard Server](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/505_cc.mov)
-- [Session 506 – Integrating Smart Card Solutions in Leopard](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/506_cc.mov)
-- [Session 508 – Building Powerful Web 2.0 Applications with WebObjects](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/508_cc.mov)
-- [Session 509 – Mac OS X Scientific Computing State of the Union](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/509_cc.mov)
-- [Session 510 – Learning to Become an Effective SysAdmin](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/510_cc.mov)
-- [Session 512 – Bending Directory Services To Your Will – Best Practices](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/512_cc.mov)
-- [Session 514 – Understanding PKI and Certificate Management on Mac OS X](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/514_cc.mov)
-- [Session 518 – Real-World WebObjects Solutions](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/518_cc.mov)
-- [Session 519 – Deploying Large-scale Storage Solutions using Xsan and Xserve RAID](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/519_cc.mov)
-- [Session 600 – Fundamentals of Digital Video](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/600_cc.mov)
-- [Session 601 – Improving Your Video With Professional Preprocessing](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/601_cc.mov)
-- [Session 602 – The Encoding Process In Depth](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/602_cc.mov)
-- [Session 603 – Delivering Your Media](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/603_cc.mov)
-- [Session 604 – Iterative Cocoa and Web Application Design](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/604_cc.mov)
-- [Session 605 – Understanding Web Accessibility for Building Better Websites](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/605_cc.mov)
-- [Session 606 – Motion Graphics Design Using Quartz Composer](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/606_cc.mov)
-- [Session 607 – Development Methods for WebKit AJAX Applications](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/607_cc.mov)
-- [Session 608 – Vector Graphics for WebKit](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/608_cc.mov)
-- [Session 609 – Dashboard Widget Design Techniques](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/609_cc.mov)
-- [Session 610 – Design Innovation behind Apple.com](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/610_cc.mov)
-- [Session 611 – AJAX Methodologies for QuickTime Development](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/611_cc.mov)
-- [Session 614 – Developing Web Sites for iPhone](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/614_cc.mov)
-- [Session 615 – Using Dojo Toolkit Power Tools to Build Rich Web Applications](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/615_cc.mov)
-- [Session 616 – Designing and Developing Hybrid-Web Cocoa Applications](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/616_cc.mov)
-- [Session 618 – Designing and Extending the Mac OS X Blog Experience](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/618_cc.mov)
-- [Session 619 – Designing and Developing Rich Media WebKit-based Applications](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/619_cc.mov)
-- [Session 621 – Advanced Concepts in Using the Prototype JavaScript Framework](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/621_cc.mov)
-- [Session 622 – Create Effective, Sophisticated Podcasts](http://developer.apple.com/devcenter/download.action?path=/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/622_cc.mov)
+- Session 100 – Coming to the Mac OS X Platform – Part 1 – The Mac OS X Architecture
+- Session 101 – Coming to the Mac OS X Platform – Part 2 – Frameworks, APIs and Tools
+- Session 102 – Threading for Performance Using OpenMP and Intel Threading Building Blocks
+- Session 103 – Getting Started with Core Data
+- Session 104 – Getting Started with Mac OS X Kernel Programming
+- [Session 105 – Optimizing Your Core Data Application](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/105_cc.mov)
+- Session 106 – Fundamentals of Kernel Debugging
+- Session 107 – Students - Getting the Most out of WWDC
+- Session 108 – Mac OS X File Systems – A Walkthrough For Developers and IT Professionals
+- Session 109 – Code Hardening Techniques
+- Session 110 – Cocoa Today
+- Session 111 – Managing Schema Versioning and Data Migration in Your Core Data Application
+- Session 112 – From Power On to Login – Inside the Mac OS X Leopard Boot Process
+- Session 114 – Developing for UNIX on Mac OS X
+- Session 115 – Getting Started with Cocoa Bindings
+- Session 116 – Students-Packets of Pure Power
+- Session 117 – Discovering Network Services Using Bonjour
+- Session 119 – Managing Processes with launchd
+- Session 125 – Building a Custom Control for Your Cocoa Application
+- Session 127 – Getting Started with Core Text
+- Session 128 – Cocoa Drawing Techniques
+- Session 130 – Cocoa Scripting Enhancements in Leopard
+- Session 131 – Add WYSIWYG HTML Editing to Your Web Page or Application
+- Session 134 – Customizing the Cocoa Text System
+- Session 136 – Modernizing Your Text Rendering with Core Text
+- Session 138 – Discover Java on Mac OS X Leopard
+- Session 139 – Partitioning Your Cocoa Application
+- [Session 140 – Developing Cocoa Applications with Python and Ruby](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/140_cc.mov)
+- [Session 141 – Boosting Responsiveness and Performance in Your Cocoa Application](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/141_cc.mov)
+- Session 145 – See What's New in HIToolbox
+- Session 146 – Sign Your Application to Increase Security and Ensure Code Integrity
+- Session 147 – Advanced Java Development on Mac OS X
+- Session 154 – Leveraging SOAP Technologies on Mac OS X
+- Session 156 – Writing an Input Method Using the Input Method Kit
+- Session 157 – Extending Your Application with JavaScript
+- Session 158 – Adding Accessibility Support to Your Application
+- [Session 161 – Making Your Custom Controls, Icons, and Artwork Resolution Independent](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__mac_os_x_essentials/161_cc.mov)
+- Session 164 – Professional Audio Input and Output with Leopard
+- Session 166 – Improving User Experience with Effective Power Management
+- Session 200 – Mac OS X State of the Union
+- Session 201 – Effective Widget Creation with Dashcode 2
+- [Session 202 – Broadcast Your Application's Content with iChat Theater](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/202_cc.mov)
+- [Session 203 – Coding Smarter with Objective-C 2.0](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/203_cc.mov)
+- Session 204 – Fostering User Interaction with iChat
+- Session 205 – Making Your Application Scriptable
+- Session 206 – Building Automator Actions 2
+- [Session 207 – Integrating iCal Events and Tasks into Your Application](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/207_cc.mov)
+- Session 209 – Getting Started with Address Book
+- Session 210 – Building Animated Cocoa User Interfaces
+- [Session 210 – Building Animated Cocoa User Interfaces](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/210_cc.mov)
+- Session 211 – Adding Core Animation to Your Application
+- [Session 211 – Adding Core Animation to Your Application](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/211_cc.mov)
+- [Session 213 – Getting Started with Spotlight and Quick Look](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/213_cc.mov)
+- Session 215 – Embracing Automator Workflows with Your Application 2
+- [Session 216 – Time Machine In-Depth](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/216_cc.mov)
+- Session 217 – Unlocking the Potential of Dashcode
+- Session 218 – Garbage Collection Strategies for Objective-C 2.0
+- Session 220 – Leopard User Interface Design
+- [Session 221 – Handling Images with the Image Kit](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/221_cc.mov)
+- Session 222 – Using Advanced Objective-C 2.0 Features
+- [Session 223 – Adopting 64-bit Programming](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__leopard_innovations/223_cc.mov)
+- Session 224 – Next Generation Automation – AppleScript, Automator and Scripting Bridge
+- Session 300 – Developer Tools State of the Union
+- Session 301 – Getting Started with Mac OS X Development Tools
+- Session 302 – Getting Started with Xcode
+- Session 304 – Creating Custom Installers with Leopard's New PackageMaker
+- Session 305 – Xcode 3.0 – The New Development Workflow
+- Session 306 – Interface Builder 3.0 – Creating an Interface from Start to Finish
+- Session 309 – Getting Started with Xray
+- Session 311 – Unleashing the Power of the Xcode Build System
+- [Session 312 – Refactoring in Xcode – Automatic Project-wide Code Changes](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/312_cc.mov)
+- [Session 314 – Project-Free Xcode – Mixed Language Development](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__developer_tools/314_cc.mov)
+- Session 315 – Tracing Software Behavior with DTrace
+- Session 316 – Getting Started – Performance Tuning with Shark
+- Session 317 – Taking Advantage of Compiler Advances
+- Session 318 – Using Xray and DTrace for In-depth Analysis
+- Session 319 – Developing Plugins for Interface Builder
+- Session 323 – Fortran Development and HPC on Mac OS X – 3rd Party Solutions
+- Session 324 – Bug Reporting Best Practices
+- Session 400 – Graphics and Media State of the Union
+- Session 401 – Creating Leading-edge 2D Graphics with Quartz
+- Session 402 – Understanding the Architecture of Core Audio
+- Session 403 – Creating Integrated Workflow Solutions with Final Cut Pro
+- Session 404 – Queueing, Streaming, and Extending Core Audio
+- Session 407 – Extending the Aperture RAW Workflow with Export Plug-Ins
+- [Session 408 – Modernizing Your OpenGL Application for Leopard](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/408_cc.mov)
+- Session 409 – Mastering QuickTime Digital Video Techniques
+- Session 410 – Introduction to FxPlug Development for Final Cut Studio
+- Session 411 – Advanced FxPlug Development for Final Cut Studio
+- Session 414 – Creating High-quality Content With QuickTime APIs
+- Session 415 – Mastering the Quartz Composer Editor
+- Session 416 – Integrating QuickTime Support into Your Application with QTKit
+- Session 417 – Switching to Mac OS X OpenGL
+- [Session 418 – Leveraging the OpenGL Shading Language (GLSL)](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/418_cc.mov)
+- Session 419 – Printing with Style in Mac OS X
+- Session 420 – Tune Your OpenGL Application
+- Session 421 – Using Quartz Composer in Your Application 2
+- [Session 424 – Create Stunning Effects with Core Image](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__graphics_and_imaging/424_cc.mov)
+- Session 429 – Tune Your 2D Graphics Code
+- Session 430 – Manipulating PDF Content in Your Application
+- Session 431 – Leveraging the Common Unix Printing System (CUPS)
+- Session 500 – IT State of the Union
+- Session 501 – Welcome to Leopard Server
+- Session 502 – Getting Started with Mac OS X Administration
+- Session 503 – Scripting for SysAdmins
+- Session 504 – Mac OS X Security Configuration
+- [Session 505 – Discovering Wiki and Group Services in Leopard Server](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__information_technologies/505_cc.mov)
+- Session 506 – Integrating Smart Card Solutions in Leopard
+- Session 508 – Building Powerful Web 2.0 Applications with WebObjects
+- Session 509 – Mac OS X Scientific Computing State of the Union
+- Session 510 – Learning to Become an Effective SysAdmin
+- Session 512 – Bending Directory Services To Your Will – Best Practices
+- Session 514 – Understanding PKI and Certificate Management on Mac OS X
+- Session 518 – Real-World WebObjects Solutions
+- Session 519 – Deploying Large-scale Storage Solutions using Xsan and Xserve RAID
+- Session 600 – Fundamentals of Digital Video
+- Session 601 – Improving Your Video With Professional Preprocessing
+- [Session 602 – The Encoding Process In Depth](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/602_cc.mov)
+- Session 603 – Delivering Your Media
+- Session 604 – Iterative Cocoa and Web Application Design
+- Session 605 – Understanding Web Accessibility for Building Better Websites
+- [Session 606 – Motion Graphics Design Using Quartz Composer](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/606_cc.mov)
+- [Session 607 – Development Methods for WebKit AJAX Applications](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/607_cc.mov)
+- [Session 608 – Vector Graphics for WebKit](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/608_cc.mov)
+- Session 609 – Dashboard Widget Design Techniques
+- Session 610 – Design Innovation behind Apple.com
+- Session 611 – AJAX Methodologies for QuickTime Development
+- Session 614 – Developing Web Sites for iPhone
+- Session 615 – Using Dojo Toolkit Power Tools to Build Rich Web Applications
+- [Session 616 – Designing and Developing Hybrid-Web Cocoa Applications](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/616_cc.mov)
+- Session 618 – Designing and Extending the Mac OS X Blog Experience
+- [Session 619 – Designing and Developing Rich Media WebKit-based Applications](https://download.developer.apple.com/wwdc_2004/adc_on_itunes__leopard_sessions_from_wwdc07__content_and_media/619_cc.mov)
+- Session 621 – Advanced Concepts in Using the Prototype JavaScript Framework
+- Session 622 – Create Effective, Sophisticated Podcasts
 
 ### WWDC 2008
 
