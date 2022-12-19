@@ -4,6 +4,7 @@
 !.gitkeep
 !.github
 !.travis.yml
+!.well-known
 
 # Swift
 build/
