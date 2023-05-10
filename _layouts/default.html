@@ -26,8 +26,7 @@
 			
 			if (utmCampaign) {
 				if (!utmSource) {
-					var campaignSource = utmCampaign.split("-")[0];
-					utmSource = campaignSource;
+                    utmSource = utmCampaign.split("-")[0];
 				}
 				if (!utmMedium) {
 					utmMedium = utmCampaign;
