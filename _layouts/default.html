@@ -45,11 +45,13 @@
 			window.dataLayer = window.dataLayer || [];
 			function gtag() { dataLayer.push(arguments); }
             gtag("js", new Date());
-            gtag("config", "G-6VBC2YFBCG", {
-                "campaign_source": utmSource,
-                "campaign_medium": utmMedium,
-                "campaign_name": utmCampaign,
-            });
+			gtag("config", "G-6VBC2YFBCG", {
+				campaign: {
+					source: utmSource,
+					medium: utmMedium,
+					name: utmCampaign,
+				}
+			});
 		</script>
 	</head>
 	<body>
