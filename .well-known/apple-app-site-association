@@ -1,15 +1,18 @@
 {
-  "applinks" : {
-    "apps" : [
-
-    ],
-    "details" : [
+  "webcredentials": {
+    "apps": [
+      "T7MC635YG5.com.pvieito.PasskeysApp"
+    ]
+  },
+  "applinks": {
+    "details": [
       {
-        "appID" : "T7MC635YG5.com.pvieito.UniversalLinkApp",
-        "paths" : [
+        "appID": "T7MC635YG5.com.pvieito.UniversalLinkApp",
+        "paths": [
           "*"
         ]
       }
-    ]
+    ],
+    "apps": []
   }
 }
