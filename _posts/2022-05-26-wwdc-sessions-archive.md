@@ -15,7 +15,7 @@ This archive of WWDC sessions is meant to extend the current collection of video
 - Unfortunately, some of the sessions do not have a link since they are not currently published by Apple.
 - Recent WWDC session videos can be found directly on [Apple Developer website](https://developer.apple.com/videos/all-videos/).
 - You can find more links for WWDC sessions on [this gist by IsaacXen](https://gist.github.com/IsaacXen/874c59aec92a13f30728aecdabb9ea80). This archive would not be possible without its initial links so credits and thanks to [IsaacXen](https://twitter.com/isaacxen).
-- The archive is also available in [new-line delimited JSON](http://ndjson.org) format [here](/resources/downloads/WWDC-Sessions.json).
+- The archive is also available in new-line delimited JSON format [here](/resources/downloads/WWDC-Sessions.json).
 
 
 ## Index
