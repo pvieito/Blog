@@ -1,6 +1,6 @@
 ---
 title: 'Eleccións Galicia 2012: Resultados da Enquisa'
-lang: gal
+lang: gl
 ---
 
 Esta enquisa estivo aberta dende o 10 de Setembro ata o 15 de Outubro de 2012. Moitas grazas aos 422 participantes!

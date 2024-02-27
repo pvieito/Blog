@@ -1,6 +1,6 @@
 ---
 title: Festa dos Maios en Redondela
-lang: gal
+lang: gl
 ---
 
 Despois da retransmisión en directo da Festa dos Maios de Redondela feita por [@rotundelas](https://twitter.com/rotundelas) aquí tedes un resumo dos premios:
