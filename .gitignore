@@ -28,8 +28,8 @@ Package.resolved
 /extra
 
 # Jekyll
-/_site
-/_build
+/_site*
+/_build*
 /.sass-cache
 /.localized
 /.jekyll-cache
