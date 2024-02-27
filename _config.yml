@@ -8,10 +8,17 @@ url: "https://pvieito.com"
 # Localization
 timezone: Europe/Madrid
 
+# Resources
+icon_url: "/resources/icon.png"
+icon_mask_url: "/resources/icon.svg"
+
 # Pages
 paginate: 4
 paginate_path: "/page/:num/"
 permalink: "/:year/:month/:title"
+
+# Feed
+feed_limit: 25
 
 # Defaults
 defaults:

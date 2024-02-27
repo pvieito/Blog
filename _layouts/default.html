@@ -5,12 +5,12 @@
 		<meta name="viewport" content="width=device-width">
 		<meta name="color-scheme" content="dark light">
 		<meta name="google-site-verification" content="a8TED6PMjhx6jnm1h2VsmEuyP-ayKIhBqjDlQQ0Hb1k" />
-		
+
 		<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-		<link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
+		<link rel="canonical" href="{{ page.url | absolute_url }}"/>
 		<link rel="stylesheet" href="/css/main.css">
-		<link rel="icon" href="/resources/icon.png">
-		<link rel="mask-icon" href="/resources/icon.svg" color="black">
+		<link rel="icon" href="{{ site.icon_url | absolute_url }}">
+		<link rel="mask-icon" href="{{ site.icon_mask_url | absolute_url }}" color="black">
 		<link rel="alternate" title="{{ site.title }}" type="application/atom+xml" href="/feed.xml" />
 		<link rel="alternate" title="{{ site.title }}" type="application/json" href="/feed.json" />
 
