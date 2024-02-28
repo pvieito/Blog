@@ -1,22 +1,22 @@
 <article lang="{{ lang }}">
-	<header>
-		{% if page.title %}
-		<h2 class="title" >
-			<a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-		</h2>
-		{% endif %}
-		{% if page.date %}
-		<p class="meta">
-			<time datetime="{{ site.time | date_to_xmlschema }}">
-			{{ page.date | date: "%-d" }}
-			{% assign m = page.date | date: "%m" | minus: 1 %}
-			{{ site.data.lang.[page.lang].month[m] }}{{ page.date | date: ", %Y" }}
-			</time>
-			<span title="{{ site.data.lang.[page.lang].name }}" class="lang">{{ page.lang | upcase }}</span>
-		</p>
-		{% endif %}
-	</header>
-	<div class="content">
-		{{ page.content }}
-	</div>
+    <header>
+        {% if page.title %}
+        <h2 class="title" >
+            <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </h2>
+        {% endif %}
+        {% if page.date %}
+        <p class="meta">
+            <time datetime="{{ site.time | date_to_xmlschema }}">
+            {{ page.date | date: "%-d" }}
+            {% assign m = page.date | date: "%m" | minus: 1 %}
+            {{ site.data.lang.[page.lang].month[m] }}{{ page.date | date: ", %Y" }}
+            </time>
+            <span title="{{ site.data.lang.[page.lang].name }}" class="lang">{{ page.lang | upcase }}</span>
+        </p>
+        {% endif %}
+    </header>
+    <div class="content">
+        {{ page.content }}
+    </div>
 </article>

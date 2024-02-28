@@ -4,17 +4,17 @@ layout: default
 
 {% include apps.html %}
 <script>
-	var urlParams = new URLSearchParams(window.location.search);
-	var redirect = urlParams.get("redirect");
-	if (redirect !== null) {
-		var appNodeId = redirect == "" ? window.location.hash.substring(1) : "app-" + redirect;
-		var appNode = document.getElementById(appNodeId);
-		var appStoreURL = new URL(appNode.attributes["app-store-url"].value);
-		var utmCampaign = urlParams.get("utm_campaign") || "pvieito-apps";
-		if (utmCampaign) {
-			appStoreURL.searchParams.set("pt", 111063803);
-			appStoreURL.searchParams.set("ct", utmCampaign);
-		}
-		window.location.replace(appStoreURL);
-	}
+    var urlParams = new URLSearchParams(window.location.search);
+    var redirect = urlParams.get("redirect");
+    if (redirect !== null) {
+        var appNodeId = redirect == "" ? window.location.hash.substring(1) : "app-" + redirect;
+        var appNode = document.getElementById(appNodeId);
+        var appStoreURL = new URL(appNode.attributes["app-store-url"].value);
+        var utmCampaign = urlParams.get("utm_campaign") || "pvieito-apps";
+        if (utmCampaign) {
+            appStoreURL.searchParams.set("pt", 111063803);
+            appStoreURL.searchParams.set("ct", utmCampaign);
+        }
+        window.location.replace(appStoreURL);
+    }
 </script>

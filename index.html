@@ -4,13 +4,13 @@ layout: default
 
 {% if paginator.page == 1 %}
     {% include apps.html %}
-	<div class="diamond"></div>
+    <div class="diamond"></div>
     <h1 class="section" id="blog">Blog</h1>
 {% endif %}
 
 {% for page in paginator.posts %}
-	{% include post.html %}
-	{% unless forloop.last %}
-		<div class="diamond"></div>
-	{% endunless %}
+    {% include post.html %}
+    {% unless forloop.last %}
+        <div class="diamond"></div>
+    {% endunless %}
 {% endfor %}

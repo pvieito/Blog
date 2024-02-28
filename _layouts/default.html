@@ -1,93 +1,93 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<meta name="color-scheme" content="dark light">
-		<meta name="google-site-verification" content="a8TED6PMjhx6jnm1h2VsmEuyP-ayKIhBqjDlQQ0Hb1k" />
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="color-scheme" content="dark light">
+        <meta name="google-site-verification" content="a8TED6PMjhx6jnm1h2VsmEuyP-ayKIhBqjDlQQ0Hb1k" />
 
-		<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-		<link rel="canonical" href="{{ page.url | absolute_url }}"/>
-		<link rel="stylesheet" href="/css/main.css">
-		<link rel="icon" href="{{ site.icon_url | absolute_url }}">
-		<link rel="mask-icon" href="{{ site.icon_mask_url | absolute_url }}" color="black">
-		<link rel="alternate" title="{{ site.title }}" type="application/atom+xml" href="/feed.xml" />
-		<link rel="alternate" title="{{ site.title }}" type="application/json" href="/feed.json" />
+        <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <link rel="canonical" href="{{ page.url | absolute_url }}"/>
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="icon" href="{{ site.icon_url | absolute_url }}">
+        <link rel="mask-icon" href="{{ site.icon_mask_url | absolute_url }}" color="black">
+        <link rel="alternate" title="{{ site.title }}" type="application/atom+xml" href="/feed.xml" />
+        <link rel="alternate" title="{{ site.title }}" type="application/json" href="/feed.json" />
 
-		<!-- Identity Links -->
-		<link rel="me" href="https://github.com/pvieito" />
-		<link rel="me" href="https://www.threads.net/@pvieito" />
-		<link rel="me" href="https://www.linkedin.com/in/pvieito/" />
-		<link rel="me" href="https://mastodon.social/@pvieito" />
-		<link rel="me" href="https://twitter.com/pvieito" />
+        <!-- Identity Links -->
+        <link rel="me" href="https://github.com/pvieito" />
+        <link rel="me" href="https://www.threads.net/@pvieito" />
+        <link rel="me" href="https://www.linkedin.com/in/pvieito/" />
+        <link rel="me" href="https://mastodon.social/@pvieito" />
+        <link rel="me" href="https://twitter.com/pvieito" />
 
-		<!-- Google Analytics -->
-		<script async src="//www.google-analytics.com/analytics.js"></script>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-6VBC2YFBCG"></script>
-		<script>
-			var urlParams = new URLSearchParams(window.location.search);
-			var utmSource = urlParams.get("utm_source");
-			var utmMedium = urlParams.get("utm_medium");
-			var utmCampaign = urlParams.get("utm_campaign");
-			
-			if (utmCampaign) {
-				if (!utmSource) {
+        <!-- Google Analytics -->
+        <script async src="//www.google-analytics.com/analytics.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6VBC2YFBCG"></script>
+        <script>
+            var urlParams = new URLSearchParams(window.location.search);
+            var utmSource = urlParams.get("utm_source");
+            var utmMedium = urlParams.get("utm_medium");
+            var utmCampaign = urlParams.get("utm_campaign");
+
+            if (utmCampaign) {
+                if (!utmSource) {
                     utmSource = utmCampaign.split("-")[0];
-				}
-				if (!utmMedium) {
-					utmMedium = utmCampaign;
-				}
-			}
-			
-			// analytics.js
-			window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-			ga("create", "UA-33067442-1", "auto");
-			ga("set", "campaignSource", utmSource);
-			ga("set", "campaignMedium", utmMedium);
-			ga("set", "campaignName", utmCampaign);
-			ga("send", "pageview");
-			
-			// gtag.js
-			window.dataLayer = window.dataLayer || [];
-			function gtag() { dataLayer.push(arguments); }
+                }
+                if (!utmMedium) {
+                    utmMedium = utmCampaign;
+                }
+            }
+
+            // analytics.js
+            window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+            ga("create", "UA-33067442-1", "auto");
+            ga("set", "campaignSource", utmSource);
+            ga("set", "campaignMedium", utmMedium);
+            ga("set", "campaignName", utmCampaign);
+            ga("send", "pageview");
+
+            // gtag.js
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
             gtag("js", new Date());
-			gtag("config", "G-6VBC2YFBCG", {
-				campaign: {
-					source: utmSource,
-					medium: utmMedium,
-					name: utmCampaign,
-				}
-			});
-		</script>
-	</head>
-	<body>
-		<section id="wrapper">
-			<header id="title">
-				<a href="/">
-					<img alt="{{ site.title }}" id="logo" src="/resources/logo.svg"/>
-				</a>
-				<p id="author">
-					by <a rel="author" href="https://www.threads.net/@pvieito"><b>{{ site.author }}</b></a>
-				</p>
-				<nav id="title-links" class="links">
-					<a rel="me" href="https://github.com/pvieito">GitHub</a>
-					&bull;
-					<a rel="me" href="https://www.threads.net/@pvieito">Threads</a>
-					&bull;
-					<a rel="me" href="https://www.linkedin.com/in/pvieito/">LinkedIn</a>
-				</nav>
-			</header>
-			{{ content }}
-			<footer>
-				<hr>
-				{% if paginator.previous_page %}
-				<div style="float:left;"><a href="{{ paginator.previous_page_path }}">〈</a></div>
-				{% endif %}
-				{% if paginator.next_page %}
-				<div style="float:right;"><a href="{{ paginator.next_page_path }}">〉</a></div>
-				{% endif %}
-				<div class="contact">© {{ site.creation_year }}–{{ site.time | date: "%Y" }} {{ site.author }}</div>
-			</footer>
-		</section>
-	</body>
+            gtag("config", "G-6VBC2YFBCG", {
+                campaign: {
+                    source: utmSource,
+                    medium: utmMedium,
+                    name: utmCampaign,
+                }
+            });
+        </script>
+    </head>
+    <body>
+        <section id="wrapper">
+            <header id="title">
+                <a href="/">
+                    <img alt="{{ site.title }}" id="logo" src="/resources/logo.svg"/>
+                </a>
+                <p id="author">
+                    by <a rel="author" href="https://www.threads.net/@pvieito"><b>{{ site.author }}</b></a>
+                </p>
+                <nav id="title-links" class="links">
+                    <a rel="me" href="https://github.com/pvieito">GitHub</a>
+                    &bull;
+                    <a rel="me" href="https://www.threads.net/@pvieito">Threads</a>
+                    &bull;
+                    <a rel="me" href="https://www.linkedin.com/in/pvieito/">LinkedIn</a>
+                </nav>
+            </header>
+            {{ content }}
+            <footer>
+                <hr>
+                {% if paginator.previous_page %}
+                <div style="float:left;"><a href="{{ paginator.previous_page_path }}">〈</a></div>
+                {% endif %}
+                {% if paginator.next_page %}
+                <div style="float:right;"><a href="{{ paginator.next_page_path }}">〉</a></div>
+                {% endif %}
+                <div class="contact">© {{ site.creation_year }}–{{ site.time | date: "%Y" }} {{ site.author }}</div>
+            </footer>
+        </section>
+    </body>
 </html>

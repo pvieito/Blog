@@ -8,40 +8,40 @@ lang: es
 ![Resultados de las Elecciones Galicia 2012][1]
 
 <table>
-	<thead>
-		<tr>
-			<th>Siglas</th>
-			<th>Escaños</th>
-			<th>Votos</th>
-			<th>%</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><strong>PP</strong></td>
-			<td><strong>41</strong></td>
-			<td>653.934</td>
-			<td>45,72%</td>
-		</tr>
-		<tr>
-			<td><strong>PSdeG</strong></td>
-			<td>18</td>
-			<td>293.571</td>
-			<td>20,53%</td>
-		</tr>
-		<tr>
-			<td><strong>AGE</strong></td>
-			<td>9</td>
-			<td>200.101</td>
-			<td>13,99%</td>
-		</tr>
-		<tr>
-			<td><strong>BNG</strong></td>
-			<td>7</td>
-			<td>145.389</td>
-			<td>10,16%</td>
-		</tr>
-	</tbody>
+    <thead>
+        <tr>
+            <th>Siglas</th>
+            <th>Escaños</th>
+            <th>Votos</th>
+            <th>%</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>PP</strong></td>
+            <td><strong>41</strong></td>
+            <td>653.934</td>
+            <td>45,72%</td>
+        </tr>
+        <tr>
+            <td><strong>PSdeG</strong></td>
+            <td>18</td>
+            <td>293.571</td>
+            <td>20,53%</td>
+        </tr>
+        <tr>
+            <td><strong>AGE</strong></td>
+            <td>9</td>
+            <td>200.101</td>
+            <td>13,99%</td>
+        </tr>
+        <tr>
+            <td><strong>BNG</strong></td>
+            <td>7</td>
+            <td>145.389</td>
+            <td>10,16%</td>
+        </tr>
+    </tbody>
 </table>
 <figcaption>Datos ofrecidos por la <a href="http://resultados2012.xunta.es">Xunta de Galicia</a>.</figcaption>
 

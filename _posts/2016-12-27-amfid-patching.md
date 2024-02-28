@@ -22,14 +22,14 @@ To patch a system daemon, we have to disable macOS System Integrity Protection. 
 
 Knowing that we can change the following two instructions from:
 
-	test %r14, %r14
-	je loc_100003531
-	
+    test %r14, %r14
+    je loc_100003531
+    
 To this:
 
-	mov %r14, %r15
-	jno loc_100003531
-	
+    mov %r14, %r15
+    jno loc_100003531
+    
 This way the flow will always jump to `loc_100003531` and `%r14` will become null (`%r15` is always null in this point), so every Developer ID signed process will be validated even without a provisioning profile allowing its Entitlements.
 
 ### Code
@@ -38,8 +38,8 @@ To achieve this modification we can go the hard way by modifing the binary _in s
 
 To do it I ported to Python 3 a wrapper for Mach VM APIs called [pymach](https://github.com/abarnert/pymach) and added a new function to get the ASRL Slice Offset of the process: [PyMach for Python 3](https://github.com/pvieito/PyMach). With that I wrote this [script](https://gist.github.com/pvieito/c0c9b8fd73255b57927b273d329c5800) for macOS 10.12.2. To use it simply run:
 
-	$ sudo ./amfid_patch.py
-	
+    $ sudo ./amfid_patch.py
+    
 And answer `yes` when asked if you want to patch the process. _Voilà!_ Now any Developer ID signed binaries will be executed even with restricted Entitlements.
 
 You can set any Entitlement you want, like `com.apple.developer.icloud-container-identifiers` or `com.apple.private.appleaccount.app-hidden-from-icloud-settings` with an arbitrary iCloud container. For a complete list of private Entitlements used by Apple you can go to Jonathan Levin's [Entitlements Database](http://newosxbook.com/ent.jl?osVer=OSX).

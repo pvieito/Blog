@@ -1,20 +1,20 @@
 {% include hero.html %}
 
 <script>
-	var urlParams = new URLSearchParams(window.location.search);
-	var utmCampaign = urlParams.get("utm_campaign");
-	if (utmCampaign !== null) {
-		var appBlockLinks = document.querySelectorAll("article#app-blocks a.app-block-link");
-		for (appBlockLink of appBlockLinks) {
-			var appStoreURL = new URL(appBlockLink.href);
-			appStoreURL.searchParams.set("utm_campaign", utmCampaign);
-			appBlockLink.href = appStoreURL;
-		}
-	}
+    var urlParams = new URLSearchParams(window.location.search);
+    var utmCampaign = urlParams.get("utm_campaign");
+    if (utmCampaign !== null) {
+        var appBlockLinks = document.querySelectorAll("article#app-blocks a.app-block-link");
+        for (appBlockLink of appBlockLinks) {
+            var appStoreURL = new URL(appBlockLink.href);
+            appStoreURL.searchParams.set("utm_campaign", utmCampaign);
+            appBlockLink.href = appStoreURL;
+        }
+    }
 </script>
 
 <nav id="app-links" class="links">
-	<a href="/app-privacy">App Privacy</a>
-	&bull;
-	<a href="/app-support">App Support</a>
+    <a href="/app-privacy">App Privacy</a>
+    &bull;
+    <a href="/app-support">App Support</a>
 </nav>
