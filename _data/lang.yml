@@ -28,7 +28,7 @@ es:
         - Octubre
         - Noviembre
         - Diciembre
-gal:
+gl:
     name: Galego
     month:
         - Xaneiro
@@ -43,18 +43,3 @@ gal:
         - Outubro
         - Novembro
         - Decembro
-cat:
-    name: Català
-    month:
-        - Gener
-        - Febrer
-        - Març
-        - Abril
-        - Maig
-        - Juny
-        - Juliol
-        - Agost
-        - Setembre
-        - Octubre
-        - Novembre
-        - Desembre
