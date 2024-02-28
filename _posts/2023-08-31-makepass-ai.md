@@ -61,4 +61,4 @@ Here you can see some examples of passes generated automatically with **MakePass
 
 [**MakePass**][makepass] is available on the [**App Store**][makepass] for iPhone, iPad and Mac.
 
-[makepass]: https://pvieito.com/apps?redirect=makepass&utm_campaign=pvieito-post-makepass-ai#app-makepass
+[makepass]: /apps?redirect=makepass&utm_campaign=pvieito-post-makepass-ai#app-makepass

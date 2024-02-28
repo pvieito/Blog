@@ -55,5 +55,5 @@ To complete the shortcut, we can add an action to open the passes in macOS or sh
 
 You can get the complete shortcut [**here**][shortcut-url].
 
-[makepass]: https://pvieito.com/apps?redirect=makepass&utm_campaign=pvieito-post-makepass-batch#app-makepass
+[makepass]: /apps?redirect=makepass&utm_campaign=pvieito-post-makepass-batch#app-makepass
 [shortcut-url]: https://www.icloud.com/shortcuts/40dce4da8619459b9631e0de98036826
