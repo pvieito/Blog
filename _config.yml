@@ -26,7 +26,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      lang: es
+      lang: en
       layout: "post"
 
 # Build

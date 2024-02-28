@@ -1,10 +1,11 @@
 ---
 # Name: PVIEITO
-# Copyright: © 2008-2016 Pedro José Pereira Vieito
+# Copyright: © 2008-2024 Pedro José Pereira Vieito
 # Version: 9.0
 ---
 
 @charset "utf-8";
+
 
 /* Colors */
 :root {
@@ -16,6 +17,7 @@
     --soft-gray-color: #696969;
     --default-text-color: #000000;
 }
+
 @media (prefers-color-scheme: dark) {
     :root {
         --highlight-color: #528DE9;
@@ -50,6 +52,7 @@ a, a:active {
     color: var(--highlight-color);
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
@@ -59,7 +62,7 @@ section#wrapper {
     display: block;
     width: 728px;
     margin: 0 auto;
-    
+
     h1.section {
         text-align: center;
         text-transform: uppercase;
@@ -88,11 +91,12 @@ header#title {
         width: 425px;
         height: auto;
         margin: auto;
-        
+
         @media (prefers-color-scheme: dark) {
-            filter: invert(100%); 
+            filter: invert(100%);
         }
     }
+
     p#author {
         margin-top: 0em;
         margin-bottom: 1.5em;
@@ -118,14 +122,17 @@ article {
     /* Titles */
     header {
         padding-bottom: 5px;
+
         h2.title {
             font-size: 1.7em;
             margin-bottom: 0;
             line-height: 1.25;
             font-weight: 500;
         }
+
         p.meta {
             margin: 0;
+
             span.lang {
                 font-size: 0.7em;
                 vertical-align: middle;
@@ -141,42 +148,51 @@ article {
     /* Content */
     div.content {
         overflow-x: auto;
+
         h3 {
             font-size: 1.1em;
             margin-top: 1.6em;
         }
+
         p {
             margin-bottom: 20px;
         }
+
         blockquote {
             margin-left: 1.5em;
             border-left: var(--structure-color) solid 3px;
             padding-left: 13px;
             color: var(--light-gray);
         }
+
         table {
             margin: 2em auto;
             min-width: 300px;
             max-width: 100%;
             border-collapse: collapse;
+
             td, th {
                 margin: 0;
                 border: 1px solid var(--structure-color);
                 padding: 0.4em 0.7em;
             }
         }
+
         img, iframe {
             max-width: 100%;
             margin: auto;
             display: block;
         }
+
         iframe {
             width: 100% !important;
         }
+
         img {
             max-height: 500px;
             border-radius: 5px;
         }
+
         figcaption {
             margin-bottom: 1.5em;
             text-align: center;
@@ -184,6 +200,7 @@ article {
             font-size: 0.9em;
             color: var(--detail-color);
         }
+
         pre {
             background-color: var(--base-color);
             overflow: auto;
@@ -191,21 +208,52 @@ article {
             border-radius: 5px;
             margin-top: 0;
         }
+
         pre, code {
             font-family: "Monaco", monospace;
             font-size: 0.86em;
         }
-        sup { bottom: 0.5ex; }
-        sub { top: .5ex; }
-        dt { font-weight: bold; }
-        dd { margin: 0 auto 15px 20px; }
+
+        sup {
+            bottom: 0.5ex;
+        }
+
+        sub {
+            top: .5ex;
+        }
+
+        dt {
+            font-weight: bold;
+        }
+
+        dd {
+            margin: 0 auto 15px 20px;
+        }
 
         /* Detalles */
-        div { overflow: auto; }
-        div.right { width: 49%; float: right; display: block; }
-        div.left { width: 49%; float: left; display: block; }
-        div.footnotes { font-size: 15px; }
-        li p { margin: 5px 0; }
+        div {
+            overflow: auto;
+        }
+
+        div.right {
+            width: 49%;
+            float: right;
+            display: block;
+        }
+
+        div.left {
+            width: 49%;
+            float: left;
+            display: block;
+        }
+
+        div.footnotes {
+            font-size: 15px;
+        }
+
+        li p {
+            margin: 5px 0;
+        }
     }
 }
 
@@ -217,9 +265,11 @@ article {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
+
 .diamond::after {
     content: "◆";
 }
+
 hr {
     clear: both;
     border: none;
@@ -239,9 +289,20 @@ footer {
 
 /* Mobile */
 @media (max-width: 750px) {
-    body { font-size: 17px; }
-    section#wrapper { width: 90%; min-width: 300px; }
-    header#title img#logo { width: 230px; }
-    article img, article figure, article iframe { max-height: 1000px; }
-    figcaption { font-size: 1em; }
+    body {
+        font-size: 17px;
+    }
+    section#wrapper {
+        width: 90%;
+        min-width: 300px;
+    }
+    header#title img#logo {
+        width: 230px;
+    }
+    article img, article figure, article iframe {
+        max-height: 1000px;
+    }
+    figcaption {
+        font-size: 1em;
+    }
 }
