@@ -35,7 +35,7 @@ You can check the source code of this demo app, [**ChatGPTStealer**, on GitHub](
 
 ### Aftermath
 
-Initially, I reported this issue to OpenAI through their [bug bounty program in BugCrowd](https://bugcrowd.com/openai), but they marked the report as "Not Applicable" as "in-order for an attacker to leverage this, they would need physical access to the victim's device."
+Initially, I reported this issue to OpenAI through their [security bug reporting program in BugCrowd](https://bugcrowd.com/openai), but they marked the report as "Not Applicable" as "in-order for an attacker to leverage this, they would need physical access to the victim's device."
 
 As I disagreed with that consideration, I decided to post this issue publicly on [Threads][threads] & [Mastodon][mastodon] to raise awareness and encourage OpenAI to fix this issue and hopefully sandbox the ChatGPT app on macOS. These posts gained attention and were eventually covered by [The Verge](https://www.theverge.com/2024/7/3/24191636/openai-chatgpt-mac-app-conversations-plain-text), [Ars Technica](https://arstechnica.com/ai/2024/07/chatgpts-much-heralded-mac-app-was-storing-conversations-as-plain-text/), [9to5Mac](https://9to5mac.com/2024/07/03/chatgpt-macos-conversations-plain-text/), and others.
 
