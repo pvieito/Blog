@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT for Mac app was storing conversations in an unprotected location"
+title: "ChatGPT for Mac was storing the conversations in an unprotected location"
 lang: en
 ---
 
