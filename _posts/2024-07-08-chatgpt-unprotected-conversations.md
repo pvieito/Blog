@@ -45,9 +45,9 @@ Following these publications, OpenAI finally acknowledged the issue and released
 ~/Library/Application Support/com.openai.chat/conversations-v2-{uuid}/
 ```
 
-These files are now encrypted with a key named `com.openai.chat.conversations_v2_cache` stored securely in the macOS Keychain and the old plain-text conversations are removed after upgrading to the new version. However, the app is still not sandboxed, so the conversations are still stored in a non-protected location, but now at least encrypted so other apps can't read them without user-granted access to the Keychain key.
+These files are now encrypted with a key named `com.openai.chat.conversations_v2_cache` stored securely in the macOS Keychain and the old plain-text conversations are removed after upgrading to the new version. However, the app is still not sandboxed, so the conversations are still stored in a non-protected location, but now at least they are encrypted so other apps can't read them without user-granted access to the Keychain key.
 
-Interestingly, [macOS Sequoia will introduce Group Containers](https://developer.apple.com/wwdc24/10123?time=743), so non-sandboxed apps like ChatGPT could improve their security by moving sensitive data to a Group Container directory. This way, any other process or app trying to access the data would be blocked by the system, and a permission prompt would be presented to the user.
+Interestingly, [macOS Sequoia will introduce protections for Group Containers](https://developer.apple.com/wwdc24/10123?time=743), so non-sandboxed apps like ChatGPT could improve their security by moving sensitive data to a Group Container directory. This way, any other process or app trying to access the data would be blocked by the system, and a permission prompt would be presented to the user.
 
 [threads]: https://www.threads.net/@pvieito/post/C85NVV6hvF6?xmt=AQGz2aGyO79t7rDf_sy_9CCnwG61rDGEsdERLEa6TbqZ0g
 [mastodon]: https://mastodon.social/@pvieito/112713171065724442
