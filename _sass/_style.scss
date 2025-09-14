@@ -284,6 +284,14 @@ footer {
     font-size: 0.95em;
 }
 
+/* App Icons */
+.app-block {
+    .app-block-link img {
+        padding: 8% !important;
+        box-sizing: border-box;
+    }
+}
+
 /* Mobile */
 @media (max-width: 750px) {
     body {
