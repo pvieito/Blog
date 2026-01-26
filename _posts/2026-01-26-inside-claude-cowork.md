@@ -46,7 +46,7 @@ The core architecture consists of three main layers:
 │   ┌────────────────────────────────────────────────────────────────┐   │
 │   │  Ubuntu 22.04 VM (ARM64)                                       │   │
 │   │                                                                │   │
-│   │    /sessions/<name>/mnt/ ◄─── VirtioFS ───► ~/<SharedFolder>/  │   │
+│   │    /sessions/<name>/mnt/ ◄── VirtioFS ──► ~/<shared-folder>/   │   │
 │   │                                                                │   │
 │   │    ┌────────────────────────────────────────────────────────┐  │   │
 │   │    │  bubblewrap sandbox + seccomp (per session)            │  │   │
