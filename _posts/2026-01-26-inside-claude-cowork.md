@@ -306,7 +306,7 @@ The VM comes with a comprehensive toolkit:
 - `jq` 1.6 — JSON processing
 - `sqlite3` — Database
 
-**Node.js Packages (Global):**
+**Node.js Packages:**
 - `docx` — Word document creation
 - `pptxgenjs` — PowerPoint generation
 - `pdf-lib` — PDF manipulation
