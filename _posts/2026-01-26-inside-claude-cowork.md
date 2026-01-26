@@ -1,5 +1,5 @@
 ---
-title: "Inside Claude Cowork: How Anthropic Runs Claude Code in a Local VM"
+title: "Inside Claude Cowork: How Anthropic Runs Claude Code in a Local VM on Your Mac"
 lang: en
 ---
 
