@@ -39,6 +39,6 @@ DeveloperRunTool --x-input AppsHeroGenerator \
     -o "$REPO_DIR/_includes/hero.html"
 
 echo "Generating lossy app icons..."
-"$SCRIPT_DIR/ImageWebOptimizer.sh"
+"$SCRIPT_DIR/ImagesWebOptimizer.sh"
 
 echo "Done."
