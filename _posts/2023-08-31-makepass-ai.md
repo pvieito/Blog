@@ -3,7 +3,11 @@ title: "Creating Apple Wallet Passes Instantly With ChatGPT and MakePass AI"
 lang: en
 ---
 
-!["MakePass AI – MakePass + ChatGPT"](/media/2023/08/makepass-ai-post-header.png)
+<picture>
+  <source srcset="/media/2023/08/makepass-ai-post-header.web.avif" type="image/avif">
+  <source srcset="/media/2023/08/makepass-ai-post-header.web.webp" type="image/webp">
+  <img src="/media/2023/08/makepass-ai-post-header.web.png" alt="MakePass AI – MakePass + ChatGPT">
+</picture>
 
 ### TL;DR
 
@@ -19,7 +23,11 @@ You can use the **MakePass AI** service in the [**MakePass**][makepass] app with
 
 **MakePass AI** uses technologies like text recognition, barcode recognition and Artificial Intelligence powered by OpenAI ChatGPT models to compose Apple Wallet passes from photos or documents of tickets and cards.
 
-!["MakePass AI – Input Options"](/media/2023/08/makepass-ai-input-options.png)
+<picture>
+  <source srcset="/media/2023/08/makepass-ai-input-options.web.avif" type="image/avif">
+  <source srcset="/media/2023/08/makepass-ai-input-options.web.webp" type="image/webp">
+  <img src="/media/2023/08/makepass-ai-input-options.web.png" alt="MakePass AI – Input Options">
+</picture>
 
 ### Examples
 
@@ -32,26 +40,50 @@ Here you can see some examples of passes generated automatically with **MakePass
   </tr>
   <tr>
     <td style="width: 50%;">
-      <img src="/media/2023/08/makepass-ai-demo-1-input.png" alt="Input 1">
+      <picture>
+        <source srcset="/media/2023/08/makepass-ai-demo-1-input.web.avif" type="image/avif">
+        <source srcset="/media/2023/08/makepass-ai-demo-1-input.web.webp" type="image/webp">
+        <img src="/media/2023/08/makepass-ai-demo-1-input.web.png" alt="Input 1">
+      </picture>
     </td>
     <td style="width: 50%;">
-      <img src="/media/2023/08/makepass-ai-demo-1-pass.png" alt="Pass 1">
+      <picture>
+        <source srcset="/media/2023/08/makepass-ai-demo-1-pass.web.avif" type="image/avif">
+        <source srcset="/media/2023/08/makepass-ai-demo-1-pass.web.webp" type="image/webp">
+        <img src="/media/2023/08/makepass-ai-demo-1-pass.web.png" alt="Pass 1">
+      </picture>
     </td>
   </tr>
   <tr>
     <td style="width: 50%;">
-      <img src="/media/2023/08/makepass-ai-demo-2-input.png" alt="Input 2">
+      <picture>
+        <source srcset="/media/2023/08/makepass-ai-demo-2-input.web.avif" type="image/avif">
+        <source srcset="/media/2023/08/makepass-ai-demo-2-input.web.webp" type="image/webp">
+        <img src="/media/2023/08/makepass-ai-demo-2-input.web.png" alt="Input 2">
+      </picture>
     </td>
     <td style="width: 50%;">
-      <img src="/media/2023/08/makepass-ai-demo-2-pass.png" alt="Pass 2">
+      <picture>
+        <source srcset="/media/2023/08/makepass-ai-demo-2-pass.web.avif" type="image/avif">
+        <source srcset="/media/2023/08/makepass-ai-demo-2-pass.web.webp" type="image/webp">
+        <img src="/media/2023/08/makepass-ai-demo-2-pass.web.png" alt="Pass 2">
+      </picture>
     </td>
   </tr>
   <tr>
     <td style="width: 50%;">
-      <img src="/media/2023/08/makepass-ai-demo-3-input.png" alt="Input 3">
+      <picture>
+        <source srcset="/media/2023/08/makepass-ai-demo-3-input.web.avif" type="image/avif">
+        <source srcset="/media/2023/08/makepass-ai-demo-3-input.web.webp" type="image/webp">
+        <img src="/media/2023/08/makepass-ai-demo-3-input.web.png" alt="Input 3">
+      </picture>
     </td>
     <td style="width: 50%;">
-      <img src="/media/2023/08/makepass-ai-demo-3-pass.png" alt="Pass 3">
+      <picture>
+        <source srcset="/media/2023/08/makepass-ai-demo-3-pass.web.avif" type="image/avif">
+        <source srcset="/media/2023/08/makepass-ai-demo-3-pass.web.webp" type="image/webp">
+        <img src="/media/2023/08/makepass-ai-demo-3-pass.web.png" alt="Pass 3">
+      </picture>
     </td>
   </tr>
 </table>

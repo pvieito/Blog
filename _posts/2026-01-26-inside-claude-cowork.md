@@ -3,7 +3,11 @@ title: "Inside Claude Cowork: How Anthropic Runs Claude Code in a Local VM on Yo
 lang: en
 ---
 
-![Claude Cowork](/media/2026/claude-cowork.png)
+<picture>
+  <source srcset="/media/2026/claude-cowork.web.avif" type="image/avif">
+  <source srcset="/media/2026/claude-cowork.web.webp" type="image/webp">
+  <img src="/media/2026/claude-cowork.web.png" alt="Claude Cowork">
+</picture>
 
 **[Claude Cowork](https://claude.com/product/cowork)** is a feature of the Claude Desktop app that allows Claude to execute code, manipulate files, and perform complex tasks autonomously. This post documents a deep investigation into how it works under the hood, covering the architecture, security layers, and interesting implementation details.
 
