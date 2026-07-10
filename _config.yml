@@ -33,7 +33,13 @@ defaults:
 sass:
   style: compressed
 exclude:
+  - ".agents"
+  - ".claude"
+  - "agents"
+  - "AGENTS.md"
+  - "CLAUDE.md"
   - "Icon*"
+  - "README.md"
 include:
   - ".well-known"
 plugins:
