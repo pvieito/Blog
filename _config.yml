@@ -30,6 +30,8 @@ defaults:
       layout: "post"
 
 # Build
+destination: "_site.nosync"
+cache_dir: ".jekyll-cache.nosync"
 sass:
   style: compressed
 exclude:

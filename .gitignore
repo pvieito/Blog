@@ -16,6 +16,7 @@ Package.resolved
 # Temporary Items
 *.tmp
 *.tmp.*
+*.nosync
 
 # Virtual Environments
 /venv*/

@@ -33,6 +33,6 @@ while IFS= read -r -d '' raw_path; do
         -quality "$WEBP_QUALITY" \
         "$web_webp_path"
     echo "  Output: ${web_webp_path#"$REPO_DIR/"}"
-done < <(find "$REPO_DIR" -name "*.raw.png" -not -path "*/_site/*" -print0)
+done < <(find "$REPO_DIR" -name "*.raw.png" -not -path "*/_site*/*" -print0)
 
 echo "Done."
