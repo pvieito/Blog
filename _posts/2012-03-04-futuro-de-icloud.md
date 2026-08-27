@@ -7,7 +7,7 @@ Desde la presentación de iCloud por Steve Jobs en la pasada WWDC, una de las ca
 
 ![Todos mis documentos][1]
 
-A mí parecer hay dos problemas con “Documentos en la nube” que Apple debería solucionar:
+A mi parecer hay dos problemas con “Documentos en la nube” que Apple debería solucionar:
 
   * La arquitectura de “Documentos en la nube” es incoherente. Sigue el principio de que cada aplicación maneja su contenido, lo cual en principio parece correcto, pero al final es un gran estorbo. Para mí, lo que deberían hacer es dividir el contenido en tipos o clases, como ya hace ahora OS X en la carpeta Todos mis archivos: documentos, hojas de cálculo, películas, imágenes,… Así, las diferentes aplicaciones de edición de texto tendrían acceso a documentos y las de edición de vídeo, a películas.
   * Aunque una aplicación sea para crear presentaciones —Keynote, por ejemplo—, debe tener acceso a otros archivos, como documentos, imágenes o documentos PDF.
