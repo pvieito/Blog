@@ -5,7 +5,7 @@ lang: es
 
 He decidido eliminar Flash Player de mi Mac y aquí os explico cómo lo he hecho. Recomiendo que lo probéis: desde que no tengo Flash instalado, el rendimiento de OS X y, sobre todo, de Safari mejora mucho.
 
-![Monitor de Procesos: Flash][1]
+![Monitor de procesos: Flash][1]
 
 ### ¿Por qué?
 
@@ -13,7 +13,7 @@ He decidido eliminar Flash Player de mi Mac y aquí os explico cómo lo he hecho
   * Es la mayor fuente de _exploits_ de los navegadores modernos.
   * Está abocado a desaparecer y cuanto antes lo dejemos de usar mejor podrán evolucionar sus sustitutos: HTML5, CSS3,…
 
-### Cómo se hace: ¡Adiós Flash!
+### Cómo se hace: ¡adiós, Flash!
 
 ![Internet Plug-Ins][2]
 

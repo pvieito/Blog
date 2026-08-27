@@ -1,5 +1,5 @@
 ---
-title: 'Mañana en Cuatro: Final de House'
+title: 'Mañana en Cuatro: final de House'
 lang: es
 ---
 

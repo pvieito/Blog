@@ -1,5 +1,5 @@
 ---
-title: 'Elecciones Galicia 2012: Análisis de resultados'
+title: 'Elecciones Galicia 2012: análisis de resultados'
 lang: es
 ---
 

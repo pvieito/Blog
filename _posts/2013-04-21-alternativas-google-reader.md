@@ -1,5 +1,5 @@
 ---
-title: 'La vida después de Google Reader: Historia y alternativas'
+title: 'La vida después de Google Reader: historia y alternativas'
 lang: es
 ---
 

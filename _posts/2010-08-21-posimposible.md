@@ -1,5 +1,5 @@
 ---
-title: Nada y todo es Posimposible
+title: Nada y todo es posimposible
 lang: es
 ---
 
@@ -11,6 +11,6 @@ Vía [The Amstrix](http://www.theamstrix.es):
 >
 > — ¿Hasta lo imposible?
 >
-> — En realidad, más allá, hasta el lugar en el que lo posible y lo imposible se encuentran y pasan a ser lo POSIMPOSIBLE. Si me permitís una consideración es esta: “Nada y todo es Posimposible”.
+> — En realidad, más allá, hasta el lugar en el que lo posible y lo imposible se encuentran y pasan a ser lo _posimposible_. Si me permitís una consideración es esta: “nada y todo es _posimposible_”.
 
 —Barney Stinson.

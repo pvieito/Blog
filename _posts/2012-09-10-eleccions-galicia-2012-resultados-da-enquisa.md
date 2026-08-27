@@ -1,5 +1,5 @@
 ---
-title: 'Eleccións Galicia 2012: Resultados da enquisa'
+title: 'Eleccións Galicia 2012: resultados da enquisa'
 lang: gl
 ---
 
