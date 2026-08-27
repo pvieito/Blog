@@ -1,5 +1,5 @@
 ---
-title: "Creating Apple Wallet Passes Instantly With ChatGPT and MakePass AI"
+title: "Creating Apple Wallet Passes Instantly with ChatGPT and MakePass AI"
 lang: en
 ---
 
@@ -19,9 +19,9 @@ You can use the **MakePass AI** service in the [**MakePass**][makepass] app with
 
 ### Introduction to MakePass AI
 
-[**MakePass**][makepass] is a mighty Apple Wallet pass editor, with it you can create and customize a myriad of passes with complex layouts including images, barcodes, colors and text fields. Now it includes a new service called **MakePass AI** available with the **MakePass Ultra subscription** that allows you to create Apple Wallet passes instantly using an input photo or document of a ticket or card. It can even design the pass using a pass description.
+[**MakePass**][makepass] is a mighty Apple Wallet pass editor. With it, you can create and customize a myriad of passes with complex layouts, including images, barcodes, colors and text fields. Now it includes a new service called **MakePass AI**, available with the **MakePass Ultra subscription**, that allows you to create Apple Wallet passes instantly using an input photo or document of a ticket or card. It can even design the pass using a pass description.
 
-**MakePass AI** uses technologies like text recognition, barcode recognition and Artificial Intelligence powered by OpenAI ChatGPT models to compose Apple Wallet passes from photos or documents of tickets and cards.
+**MakePass AI** uses technologies like text recognition, barcode recognition and artificial intelligence powered by OpenAI ChatGPT models to compose Apple Wallet passes from photos or documents of tickets and cards.
 
 <picture>
   <source srcset="/media/2023/08/makepass-ai-input-options.web.avif" type="image/avif">
@@ -31,7 +31,7 @@ You can use the **MakePass AI** service in the [**MakePass**][makepass] app with
 
 ### Examples
 
-Here you can see some examples of passes generated automatically with **MakePass AI** from some input image or document:
+Here you can see some examples of passes generated automatically with **MakePass AI** from an input image or document:
 
 <table style="width: 100%;">
   <tr>

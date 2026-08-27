@@ -5,7 +5,7 @@ lang: es
 
 ![Tweetbot para Mac][1]
 
-Hablando de “Tweetbot”, si en vez del icono _alpha_, es decir, ese huevo robótico queréis el icono original y con mucha probabilidad el de la versión final podéis descargarlo desde [aquí][2]. Y que bien queda en el Dock:
+Hablando de “Tweetbot”, si en vez del icono _alpha_, es decir, ese huevo robótico, queréis el icono original —y, con mucha probabilidad, el de la versión final—, podéis descargarlo desde [aquí][2]. Y qué bien queda en el Dock:
 
 ![Tweetbot en el Dock][3]
 
@@ -15,4 +15,3 @@ Hablando de “Tweetbot”, si en vez del icono _alpha_, es decir, ese huevo rob
    [2]: http://devii.in/VgtI
    [3]: /media/2012/07/tweetbot-dock.png
    [4]: http://holgr.com/blog/2012/07/finally-tweetbot-for-mac/
-

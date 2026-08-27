@@ -7,20 +7,20 @@ lang: en
 
 ### Introduction
 
-While the Home app allows you to read and control your HomeKit-based devices on macOS, iPadOS and iOS, sometimes you want more control. You may want to bridge some sensor to other protocol, expose you home temperature on a public API, or simply export the historical data to a CSV file. Either way, currently the `HomeKit` framework is private API on macOS, and it is not available on other platforms like Linux or Windows.
+While the Home app allows you to read and control your HomeKit-based devices on macOS, iPadOS and iOS, sometimes you want more control. You may want to bridge a sensor to another protocol, expose your home temperature on a public API, or simply export the historical data to a CSV file. Either way, the `HomeKit` framework is currently a private API on macOS, and it is not available on other platforms like Linux or Windows.
 
-Fortunately there are some cross-platform implementations of the HomeKit Accessory Protocol that support controller-mode functionality:
+Fortunately, there are some cross-platform implementations of the HomeKit Accessory Protocol that support controller-mode functionality:
 
 - [HomeKit Python](https://github.com/jlusiardi/homekit_python)
 - [HAP Controller Node](https://github.com/mrstegeman/hap-controller-node)
 
-In particular **HomeKit Python** supports reading and writing HomeKit characteristics on paired devices as well as generating additional pairings. The main problem is that typically HomeKit devices only support one main pairing controller, thus, once it is paired with the Apple Home app it can only be controlled with the pairing keys managed by the `homed` system daemon which are gated by the `HomeKit` framework.
+In particular, **HomeKit Python** supports reading and writing HomeKit characteristics on paired devices as well as generating additional pairings. The main problem is that HomeKit devices typically support only one main pairing controller. Thus, once a device is paired with the Apple Home app, it can only be controlled with the pairing keys managed by the `homed` system daemon, which are gated by the `HomeKit` framework.
 
-Fortunately, the HomeKit pairing keys are stored on the iCloud Keychain. Unfortunately (_but reasonably_), the system tries hard to hide these pairing keys. In particular, they do not appear on the Keychain app nor can be read with the `Security` framework `SecItem*` family of APIs without some private entitlements granting access to the keychain access group `com.apple.hap.pairing`.
+Fortunately, the HomeKit pairing keys are stored in iCloud Keychain. Unfortunately (_but reasonably_), the system tries hard to hide these pairing keys. In particular, they neither appear in the Keychain app nor can they be read with the `Security` framework `SecItem*` family of APIs without private entitlements granting access to the keychain access group `com.apple.hap.pairing`.
 
 ### Process
 
-First of all, we have to subvert the AMFI security model to be able to sign arbitrary executables with private entitlements. To do it, we have to disable **System Integrity Protection** and **AMFI**. Rebooting on **Recovery OS** we can disable the protections using the Terminal app:
+First of all, we have to subvert the AMFI security model to be able to sign arbitrary executables with private entitlements. To do it, we have to disable **System Integrity Protection** and **AMFI**. By rebooting into **Recovery OS**, we can disable the protections using the Terminal app:
 
 ```bash
 $ csrutil disable
@@ -49,7 +49,7 @@ $ cat KeychainTool/KeychainTool.entitlements
 
 Now we will compile and run `KeychainTool` to dump all the keychain entries in the `com.apple.hap.pairing` access group.
 
-Bear in mind that `KeychainTool` uses [**CodeSignKit**](https://github.com/pvieito/CodeSignKit) to self sign its executable with private entitlements before relaunching itself. If a `codesign` error is shown set the `CODESIGNKIT_DEFAULT_IDENTITY` environment variable to the name of your Apple Developer certificate as presented on the Keychain app.
+Bear in mind that `KeychainTool` uses [**CodeSignKit**](https://github.com/pvieito/CodeSignKit) to self-sign its executable with private entitlements before relaunching itself. If a `codesign` error is shown, set the `CODESIGNKIT_DEFAULT_IDENTITY` environment variable to the name of your Apple Developer certificate as presented in the Keychain app.
 
 ```
 $ swift run KeychainTool -g com.apple.hap.pairing
@@ -67,7 +67,7 @@ $ swift run KeychainTool -g com.apple.hap.pairing
 *Voilà!* Here we have all we need:
 
 - The **HomeKit Pairing Identity** entry contains the pairing identifier stored as the item account name: `7C73D188-BF12-4B8C-B7A5-5842D71C24EA` and the LTP and LTS keys required by the HomeKit protocol separated by a `+` sign on the entry key payload: `21159cfa6032438be197d668b3562e262441965789f95634d6460d4cce5cc706`, `d2ed8558b369b4ee1fbf4f9eb8d687ee2799aba5608efc2712d8175697bd8ad8 `
-- Each accessory has its own **Paired HomeKit Accessory** keychain entry containing its paring key. For example, the device `58:CA:96:CE:66:E9` has the LTP key `44d34407d583aee3b12b774a6eb15ee96c527fa83af1db66ac90f60494bbbc29`.
+- Each accessory has its own **Paired HomeKit Accessory** keychain entry containing its pairing key. For example, the device `58:CA:96:CE:66:E9` has the LTP key `44d34407d583aee3b12b774a6eb15ee96c527fa83af1db66ac90f60494bbbc29`.
 
 Now we can use the pairing keys to set up **HomeKit Python** on any device and platform:
 
@@ -88,7 +88,7 @@ Category Identifier (ci): Bridge (Id: 2)
 $ mkdir ~/.homekit_python
 $ python3 -m homekit.init_controller_storage -f ~/.homekit_python/pairing.json
 $ nano ~/.homekit_python/pairing.json
-# Write the pairing credentials of each the device:
+# Write the pairing credentials for each device:
 {
   "EveExtend": {
     "AccessoryPairingID": "58:CA:96:CE:66:E9",
@@ -102,9 +102,9 @@ $ nano ~/.homekit_python/pairing.json
   }
 }
 $ python3 -m homekit.identify -f ~/.homekit_python/pairing.json -a EveExtend
-# The HomeKit device should identify itself (for example blinking an LED).
+# The HomeKit device should identify itself (for example, by blinking an LED).
 $ python3 -m homekit.get_accessories -f ~/.homekit_python/pairing.json -a EveExtend
-# Shows all the accesories exposed by the device.
+# Shows all the accessories exposed by the device.
 $ python3 -m homekit.get_characteristic -f ~/.homekit_python/pairing.json -a EveExtend -c 3.38
 # Shows the value of a given characteristic, for example the room relative humidity:
 {

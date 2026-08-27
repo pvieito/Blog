@@ -3,7 +3,7 @@ title: Visitas a PVIEITO
 lang: es
 ---
 
-[PVIEITO](/) vuelve a batir records durante la Keynote de Apple de la WWDC 2010:
+[PVIEITO](/) vuelve a batir récords durante la keynote de Apple de la WWDC 2010:
 
 <table>
     <thead>

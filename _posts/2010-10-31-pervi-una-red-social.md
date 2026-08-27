@@ -7,7 +7,7 @@ El pasado miércoles se publicó en La Voz de Galicia un artículo sobre Pervi, 
 
 > Sergio, ingeniero técnico en Informática, escribe en la web de La Voz que Pervi «está basada en un módulo PHP configurable que se llama SocialEngine. Se puede comprobar revisando el código fuente de la web. Lo único que han tenido que hacer es configurar este módulo, que da trabajo, pero cualquiera con conocimientos mínimos de informática podría hacerlo en uno o dos días».
 
-Además Javier Pedreira, *aka* «Wicho», uno de los *blogueros* más importantes de Galicia y editor de [Microsiervos](http://www.microsiervos.com/) escribe [para La Voz](http://www.lavozdegalicia.es/sociedad/2010/10/30/0003_8816160.htm):
+Además, Javier Pedreira, *aka* «Wicho», uno de los *blogueros* más importantes de Galicia y editor de [Microsiervos](http://www.microsiervos.com/), escribe [para La Voz](http://www.lavozdegalicia.es/sociedad/2010/10/30/0003_8816160.htm):
 
 > **Exceso de entusiasmo**
 >

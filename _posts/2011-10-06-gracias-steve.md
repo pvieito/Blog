@@ -1,5 +1,5 @@
 ---
-title: "Thank you, Steve!"
+title: "Thank You, Steve!"
 lang: en
 ---
 

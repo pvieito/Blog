@@ -9,7 +9,7 @@ lang: en
 
 [**HomeControl**][homecontrol] is a powerful Mac app that allows you to control your HomeKit setup directly from the menu bar.
 
-**HomeControl** also includes full automation support for all the actions available in the app (triggering scenes, switching a device or device group status, changing the primary home and also changing device properties) with “x-callback-url”-compatible **Automation URLs** which can be easily invoked from **AppleScript, Terminal and other apps**.
+**HomeControl** also includes full automation support for all the actions available in the app (triggering scenes, switching the status of a device or device group, changing the primary home and also changing device properties) with “x-callback-url”-compatible **Automation URLs**, which can be easily invoked from **AppleScript, Terminal and other apps**.
 
 ### Automation URLs
 
@@ -17,13 +17,13 @@ HomeControl Automation URLs can be easily generated from the “Customize Items�
 
 ![HomeControl – Copy Automation URL](/media/2022/01/homecontrol-app-automation-url.png)
 
-A HomeControl Automation URL will be now available in your pasteboard. By default, Automation URLs run the same action that is executed when clicking on the item in the HomeControl menu:
+A HomeControl Automation URL will now be available in your pasteboard. By default, Automation URLs run the same action that is executed when clicking on the item in the HomeControl menu:
 
 - Scenes will be triggered.
-- Devices will toggle their status (on to off and viceversa).
+- Devices will toggle their status (on to off and vice versa).
 - Homes will be set as the HomeKit primary home.
 
-You can customize these default Automation URL to unleash a lot of more actions.
+You can customize these default Automation URLs to unleash many more actions.
 
 #### Device Activation Modes
 
@@ -39,19 +39,19 @@ You can also remove the `home-name` parameter of the URL and it will be invoked 
 
 #### Device Property Actions
 
-There is a forth type of automation action that is not available directly with the “Copy Automation URL” shortcut, the `change-device-property` action. This action allows you to change a property of a device like light brightness, light color, thermostat mode, thermostat temperature or blinds position by setting the `property-type` and `property-value` parameters. These are some examples of what is posible with this powerful action type:
+There is a fourth type of automation action that is not available directly with the “Copy Automation URL” shortcut: the `change-device-property` action. This action allows you to change a property of a device, like light brightness, light color, thermostat mode, thermostat temperature or blinds position, by setting the `property-type` and `property-value` parameters. These are some examples of what is possible with this powerful action type:
 
 - Set lightbulb named "Light" to 70% brightness: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Light&`**<span style="color:var(--default-text-color);">`property-type=light-brightness&property-value=70`</span>**`&authentication-token=TOKEN`</span>
 - Set lightbulb named "Light" to yellow color (hue 60°): <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Light&`**<span style="color:var(--default-text-color);">`property-type=light-hue&property-value=60`</span>**`&authentication-token=TOKEN`</span>
 - Set lightbulb named "Light" to 30% color saturation: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Light&`**<span style="color:var(--default-text-color);">`property-type=light-saturation&property-value=30`</span>**`&authentication-token=TOKEN`</span>
-- Set lightbulb named "Light" to warm color temperature (3200K): <span style="color:var(--soft-gray-color);">`homecontrol//x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Light&`**<span style="color:var(--default-text-color);">`property-type=light-color-temperature&property-value=3200`</span>**`&authentication-token=TOKEN`</span>
+- Set lightbulb named "Light" to warm color temperature (3200K): <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Light&`**<span style="color:var(--default-text-color);">`property-type=light-color-temperature&property-value=3200`</span>**`&authentication-token=TOKEN`</span>
 - Set thermostat named "Air Conditioner" to 21°C target temperature: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Air%20Conditioner&`**<span style="color:var(--default-text-color);">`property-type=thermostat-temperature&property-value=21`</span>**`&authentication-token=TOKEN`</span>
 - Set thermostat named "Air Conditioner" to "Auto" mode: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Air%20Conditioner&`**<span style="color:var(--default-text-color);">`property-type=thermostat-mode&property-value=auto`</span>**`&authentication-token=TOKEN`</span>
 - Set blinds named "Blinds" to 70% open: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Blinds&`**<span style="color:var(--default-text-color);">`property-type=position&property-value=70`</span>**`&authentication-token=TOKEN`</span>
 - Set window named "Window" to 30% open: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Window&`**<span style="color:var(--default-text-color);">`property-type=position&property-value=30`</span>**`&authentication-token=TOKEN`</span>
 - Set fan named "Fan" to 60% speed: <span style="color:var(--soft-gray-color);">`homecontrol://x-callback-url/run-action?action-type=change-device-property&item-type=device&item-name=Fan&`**<span style="color:var(--default-text-color);">`property-type=rotation-speed&property-value=60`</span>**`&authentication-token=TOKEN`</span>
 
-### Automation & Scripting
+### Automation and Scripting
 
 You can easily invoke [**HomeControl**][homecontrol] Automation URLs from AppleScript, Terminal or other apps like [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios), [Keyboard Maestro](https://www.keyboardmaestro.com/) or [Stream Deck](https://www.elgato.com/es/stream-deck).
 

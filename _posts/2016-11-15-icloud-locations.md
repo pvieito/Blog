@@ -3,17 +3,17 @@ title: iCloud Locations in macOS
 lang: en
 ---
 
-## Sandboxed vs. Non Sandboxed
+## Sandboxed vs. Non-Sandboxed
 
-In macOS a given app can or cannot be sandboxed and since macOS Sierra non App Store apps can access iCloud APIs so could be a non-sandboxed app using this locations to sync data.
+On macOS, an app may or may not be sandboxed. Since macOS Sierra, apps distributed outside the Mac App Store can access iCloud APIs, so a non-sandboxed app can use these locations to sync data.
 
-So if you want to access a sandboxed iCloud location you should go to the app container and use it as the home path.
+So, if you want to access a sandboxed iCloud location, you should go to the app container and use it as the home path.
 
     $SANDBOXED_CONTAINER = ~/Library/Container/com.example.app/Data
 
 ## iCloud Documents
 
-Each app can have one or more document containers inside named with its Bundle ID:
+Each app can have one or more document containers inside, named with its bundle ID:
 
     ~/Library/Mobile Documents/
 
@@ -21,7 +21,7 @@ The information and details of each container are stored here:
 
     ~/Library/Application Support/CloudDocs/session/containers
 
-The info is stored in a plist file with the name of the container for example:
+The info is stored in a plist file with the name of the container, for example:
 
     iCloud.com.pvieito.Example.plist
 
@@ -40,7 +40,7 @@ This synced data is stored as a property list file in:
 
 ## CloudKit
 
-CloudKit works online but macOS stores a cache of its contents in a folder appropriately called *CloudKit*:
+CloudKit works online, but macOS stores a cache of its contents in a folder appropriately called *CloudKit*:
 
     ~/Caches/CloudKit
     $(SANDBOXED_CONTAINER)/CloudKit

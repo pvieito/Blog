@@ -1,5 +1,5 @@
 ---
-title: "Creating Apple Wallet Passes in Batch With MakePass and Shortcuts"
+title: "Creating Apple Wallet Passes in Batch with MakePass and Shortcuts"
 lang: en
 ---
 
@@ -13,7 +13,7 @@ You can download a shortcut [**here**][shortcut-url] that parses a `CSV` text an
 
 ### Introduction
 
-[**MakePass**][makepass] is a mighty Apple Wallet pass editor, with it you can create and customize a myriad of passes with complex layouts including images, barcodes, colors and text fields, but its the most powerful and versatile feature is its integration with the [Shortcuts app](https://support.apple.com/guide/shortcuts/welcome/ios) in iOS, iPad and macOS.
+[**MakePass**][makepass] is a mighty Apple Wallet pass editor. With it, you can create and customize a myriad of passes with complex layouts, including images, barcodes, colors and text fields. Its most powerful and versatile feature is its integration with the [Shortcuts app](https://support.apple.com/guide/shortcuts/welcome/ios) in iOS, iPadOS and macOS.
 
 !["MakePass – “Create Pass” Action"](/media/2021/11/makepass-batch-create-pass-action.png)
 
@@ -33,9 +33,9 @@ Ursula von Köriet,CD-0000004,2021-01-04 12:00
 Alejandro Couñago,CD-0000005,2021-01-05 12:00
 ```
 
-In this example `CSV` document, each line represent a pass which will be generated. Each line includes 3 components which will be added to the pass template (a name in a text field like `"John Appleseed"`, a QR barcode payload like `"CD-0000001"` and a relevant date like `"2021-01-01 12:00"`). To load this `CSV` in Shortcuts we can use the **Text** action, load the contents from a file or use the shortcut content input. In this example we will use the **Text** action.
+In this example `CSV` document, each line represents a pass that will be generated. Each line includes 3 components that will be added to the pass template (a name in a text field like `"John Appleseed"`, a QR barcode payload like `"CD-0000001"` and a relevant date like `"2021-01-01 12:00"`). To load this `CSV` in Shortcuts, we can use the **Text** action, load the contents from a file or use the shortcut content input. In this example, we will use the **Text** action.
 
-Once we have the `CSV` text loaded in the shortcut, we can split it by line and iterate over them. In each iteration we can split the line by commas and we can extract each of the pass components needed to fill the pass template:
+Once we have the `CSV` text loaded in the shortcut, we can split it into lines and iterate over them. In each iteration, we can split the line by commas and extract each of the pass components needed to fill the pass template:
 
 !["MakePass – Batch Shortcut – 1"](/media/2021/11/makepass-batch-shortcut-1.png)
 
@@ -43,11 +43,11 @@ After extracting the components we can simply set our pass template file in the 
 
 !["MakePass – Batch Shortcut – 2"](/media/2021/11/makepass-batch-shortcut-2.png)
 
-And _voilà!_, running the shortcut will generate 5 passes, each one with its own custom properties:
+And _voilà!_ Running the shortcut will generate 5 passes, each one with its own custom properties:
 
 !["MakePass – Batch Shortcut – 3"](/media/2021/11/makepass-batch-shortcut-3.png)
 
-To complete the shortcut, we can add an action to open the passes in macOS or share them with an app in iOS and iPadOS. You can also use the **Save File** action to store the pass files in your device.
+To complete the shortcut, we can add an action to open the passes in macOS or share them with an app in iOS and iPadOS. You can also use the **Save File** action to store the pass files on your device.
 
 !["MakePass – Batch Shortcut – 4"](/media/2021/11/makepass-batch-shortcut-4.png)
 

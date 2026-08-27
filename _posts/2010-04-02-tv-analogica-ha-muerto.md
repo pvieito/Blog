@@ -1,6 +1,6 @@
 ---
-title: La TV Analógica ha muerto
+title: La TV analógica ha muerto
 lang: es
 ---
 
-Larga vida a la Televisión Digital Terrestre.
+Larga vida a la televisión digital terrestre.

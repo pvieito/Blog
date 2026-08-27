@@ -1,11 +1,11 @@
 ---
-title: Análisis de las Estadísticas de Visitantes durante Noviembre
+title: Análisis de las estadísticas de visitantes durante noviembre
 lang: es
 ---
 
-En primer lugar hay que destacar que este mes han visto el blog 1.705 usuarios únicos los cuales ha realizado 2.791 visitas. El número de visitas del historial completo, desde diciembre de 2008 han sido 35.098.
+En primer lugar, hay que destacar que este mes han visto el blog 1.705 usuarios únicos, que han realizado 2.791 visitas. El número de visitas del historial completo, desde diciembre de 2008, ha sido de 35.098.
 
-En segundo lugar y, quizá lo más interesante, es la distribución de lectores tanto por países, como por navegadores y sistemas operativos.
+En segundo lugar, quizá lo más interesante sea la distribución de lectores tanto por países como por navegadores y sistemas operativos.
 
 Aquí están los datos de las visitas clasificadas por país de procedencia.
 
@@ -48,7 +48,7 @@ Aquí están los datos de las visitas clasificadas por país de procedencia.
     </tbody>
 </table>
 
-Y aquí por navegador, es destacable el gran porcentaje que acumula Google Chrome, el más usado para visitar el blog y que según sondeos generales ha llegado a ser el tercer navegador más usado del mundo incluso superando a Firefox en Europa y EE. UU.
+Por navegador, es destacable el gran porcentaje que acumula Google Chrome, el más usado para visitar el blog y que, según sondeos generales, ha llegado a ser el tercer navegador más usado del mundo, incluso superando a Firefox en Europa y EE. UU.
 
 <table>
     <thead>
@@ -92,7 +92,7 @@ Es notable la presencia de Macs, con un 19% de cuota y de iOS (iPad, iPhone y iP
 <table>
     <thead>
         <tr>
-            <th>Sistema Op.</th>
+            <th>Sistema op.</th>
             <th>Porcentaje</th>
         </tr>
     </thead>

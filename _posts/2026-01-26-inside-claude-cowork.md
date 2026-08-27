@@ -4,9 +4,9 @@ lang: en
 ---
 
 <picture>
-  <source srcset="/media/2026/claude-cowork.web.avif" type="image/avif">
-  <source srcset="/media/2026/claude-cowork.web.webp" type="image/webp">
-  <img src="/media/2026/claude-cowork.web.png" alt="Claude Cowork">
+  <source srcset="/media/2026/01/claude-cowork.web.avif" type="image/avif">
+  <source srcset="/media/2026/01/claude-cowork.web.webp" type="image/webp">
+  <img src="/media/2026/01/claude-cowork.web.png" alt="Claude Cowork">
 </picture>
 
 **[Claude Cowork](https://claude.com/product/cowork)** is a feature of the Claude Desktop app that allows Claude to execute code, manipulate files, and perform complex tasks autonomously. This post documents a deep investigation into how it works under the hood, covering the architecture, security layers, and interesting implementation details.
@@ -70,7 +70,7 @@ The core architecture consists of three main layers:
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
-Claude Cowork is **not** a separate model, it is [Claude Code CLI](https://github.com/anthropics/claude-code) running inside the VM, orchestrated by Claude Desktop:
+Claude Cowork is **not** a separate model; it is [Claude Code CLI](https://github.com/anthropics/claude-code) running inside the VM, orchestrated by Claude Desktop:
 
 | Component | Value |
 |-----------|-------|
@@ -105,7 +105,7 @@ PRETTY_NAME="Ubuntu 22.04.5 LTS"
 Linux claude 6.8.0-90-generic aarch64 GNU/Linux
 ```
 
-This is not a Docker container or a lightweight sandbox, it is a full VM with its own kernel, managed by Apple's Virtualization Framework. The VM runs via `com.apple.Virtualization.VirtualMachine`, the same technology used by tools like [UTM](https://mac.getutm.app) and [Tart](https://tart.run).
+This is not a Docker container or a lightweight sandbox; it is a full VM with its own kernel, managed by Apple's Virtualization Framework. The VM runs via `com.apple.Virtualization.VirtualMachine`, the same technology used by tools like [UTM](https://mac.getutm.app) and [Tart](https://tart.run).
 
 Resources allocated:
 - 4 vCPUs (ARM64)
@@ -127,9 +127,9 @@ The VM files are stored locally at:
 | `efivars.fd` | 128 KB | UEFI boot variables |
 | `macAddress` | 17 B | Virtual MAC address |
 | `machineIdentifier` | 70 B | Unique VM identifier |
-| `.rootfs.img.origin` | 40 B | SHA1 hash for image verification |
+| `.rootfs.img.origin` | 40 B | SHA-1 hash for image verification |
 
-The `rootfs.img` is a sparse file, meaning it does not actually consume 10 GB on disk, only the space needed for actual data.
+The `rootfs.img` is a sparse file, meaning it does not actually consume 10 GB on disk; it uses only the space needed for actual data.
 
 ### Security Layers
 
@@ -170,9 +170,9 @@ Session names are randomly generated using a Docker-container-like pattern: `adj
 | `/sessions/<name>/` | No | Permissions `drwxr-x---` block cross-session access |
 | User (UID) | No | Each active session has its own Linux user (e.g., `uid=1002`) |
 | Kernel/Processes | Yes | Same VM, same kernel |
-| Network proxy | Yes | Same allowlist rules |
+| Network Proxy | Yes | Same allowlist rules |
 
-This was verified by creating a file in `/tmp/` from one session and successfully reading it from another, while attempting `ls /sessions/dreamy-optimistic-babbage/` returned `Permission denied`.
+This was verified by creating a file in `/tmp/` from one session and successfully reading it from another, whereas an attempt to run `ls /sessions/dreamy-optimistic-babbage/` returned `Permission denied`.
 
 Interestingly, inactive sessions show `nobody:nogroup` as owner, while the active session has its own dedicated user. This suggests sessions are "depersonalized" when closed.
 
@@ -208,7 +208,7 @@ This translation is context-aware: it only rewrites paths that are actual file a
 
 All network traffic from the VM is routed through a local proxy with a strict allowlist. Direct DNS lookups are blocked (`socket(): Operation not permitted`).
 
-**Allowed domains:**
+**Allowed Domains:**
 
 | Domain | Status | Purpose |
 |--------|--------|---------|
@@ -216,13 +216,13 @@ All network traffic from the VM is routed through a local proxy with a strict al
 | `pypi.org` | 200 | Python packages |
 | `registry.npmjs.org` | 200 | Node packages |
 
-**Blocked domains:**
+**Blocked Domains:**
 
 | Domain | Response |
 |--------|----------|
 | `google.com` | `403 Forbidden - blocked-by-allowlist` |
 | `api.github.com` | `403 Forbidden - blocked-by-allowlist` |
-| Any other domain | `403 Forbidden - blocked-by-allowlist` |
+| Any Other Domain | `403 Forbidden - blocked-by-allowlist` |
 
 This means Claude can install dependencies via `pip` and `npm`, but cannot make arbitrary HTTP requests from the VM—`curl` to non-allowlisted domains is blocked, and the same applies to the `WebFetch` tool. However, `WebSearch` works as it uses the Anthropic API endpoint.
 
@@ -260,17 +260,17 @@ Communication between Claude Desktop (macOS) and Claude Code (VM) uses multiple 
 
 | Channel | Mechanism | Purpose |
 |---------|-----------|---------|
-| **Messages** | Unix pipes (stdin/stdout) | JSON stream for user messages and responses |
-| **HTTP Proxy** | Unix socket → socat → `:3128` | HTTP requests (pip, npm, API calls) |
-| **SOCKS Proxy** | Unix socket → socat → `:1080` | Other network protocols |
-| **MCP** | SDK protocol via pipes | Communication with MCP servers on host |
-| **Files** | VirtioFS mount | Shared folder access |
+| **Messages** | Unix Pipes (stdin/stdout) | JSON stream for user messages and responses |
+| **HTTP Proxy** | Unix Socket → socat → `:3128` | HTTP requests (pip, npm, API calls) |
+| **SOCKS Proxy** | Unix Socket → socat → `:1080` | Other network protocols |
+| **MCP** | SDK Protocol via Pipes | Communication with MCP servers on host |
+| **Files** | VirtioFS Mount | Shared folder access |
 
 The Unix sockets (`/tmp/claude-*.sock`) are mounted from macOS into the VM via VirtioFS, allowing `socat` processes inside the VM to bridge network traffic to the host's proxy.
 
 ## MCP
 
-One of the most interesting aspects of the architecture is how [MCP (Model Context Protocol)](https://modelcontextprotocol.io) servers are integrated. Claude Desktop's MCP servers are passed to the VM and made available to Claude Code. The MCP configuration is injected via command-line argument:
+One of the most interesting aspects of the architecture is how [Model Context Protocol (MCP)](https://modelcontextprotocol.io) servers are integrated. Claude Desktop's MCP servers are passed to the VM and made available to Claude Code. The MCP configuration is injected via a command-line argument:
 
 ```json
 {
@@ -286,9 +286,9 @@ One of the most interesting aspects of the architecture is how [MCP (Model Conte
 
 Official Anthropic integrations use UUIDs as identifiers (e.g., `ea93ae0e-...` for Atlassian, `4b26c136-...` for Slack), while third-party and custom servers use human-readable names. The `cowork` server is built-in and provides tools like `request_cowork_directory` and `allow_cowork_file_delete`.
 
-MCP servers configured in Claude Desktop are dynamically passed through to the VM. When a new MCP server is added to Claude Desktop, it becomes available to Cowork sessions. MCP servers use `"type": "sdk"` which means they communicate through the Claude SDK rather than stdio pipes, enabling Claude inside the VM to interact with applications running on the host.
+MCP servers configured in Claude Desktop are dynamically passed through to the VM. When a new MCP server is added to Claude Desktop, it becomes available to Cowork sessions. MCP servers use `"type": "sdk"`, which means they communicate through the Claude SDK rather than stdio pipes, enabling Claude inside the VM to interact with applications running on the host.
 
-## Pre-installed Tools
+## Preinstalled Tools
 
 The VM comes with a comprehensive toolkit:
 
@@ -331,7 +331,7 @@ The architecture provides strong isolation:
 4. **Per-session sandboxing**: Each conversation runs in its own bubblewrap sandbox with a dedicated user
 5. **DNS blocked**: Direct DNS lookups fail; all traffic must go through the proxy
 
-**Potential concerns:**
+**Potential Concerns:**
 - Sessions sharing `/tmp/` could theoretically leak information between conversations
 - The VM persists between sessions, so artifacts may remain in shared spaces
 

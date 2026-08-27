@@ -1,5 +1,5 @@
 ---
-title: 'Elecciones Galicia 2012: Análisis de Resultados'
+title: 'Elecciones Galicia 2012: Análisis de resultados'
 lang: es
 ---
 
@@ -51,12 +51,12 @@ lang: es
 
 > A principios de campaña, un sondeo del CIS vaticinaba una nueva mayoría absoluta ajustada del PPdG de **Alberto Núñez Feijoo**, con un leve descenso del PSdG, el mantenimiento del BNG y la entrada en el Parlamento de la coalición AGE liderada por **Xosé Manuel Beiras**. Como adelantábamos hace una semana en Lar Gallego, se trataba de unas elecciones ajustadas en un momento clave para Galicia. […]
 
-Podéis seguir leyendo el análisis en [su blog][3], dónde he publicado el siguiente comentario sobre el futuro de las 4 formaciones con representación parlamentaria:
+Podéis seguir leyendo el análisis en [su blog][3], donde he publicado el siguiente comentario sobre el futuro de las 4 formaciones con representación parlamentaria:
 
   * **Feijóo**, una vez revalidado su puesto, mantendrá la línea de hasta ahora. Supongo que también intentará mostrar la imagen de “gobierno responsable” en comparación con otras comunidades rescatadas. Como deberes claros tiene disminuir el paro y mejorar la gestión de la educación y sanidad. También este resultado hará crecer su poder en el PP de Madrid al cual le proporciona aire fresco.
-  * El **PSOE**, necesita cambiar de líderes y aclarar su ideología. Un partido no puede pretender llegar al poder con grandes dudas ideológicas. Por su parte al PSdeG creo que le convendría federarse al estilo del PSC para poder modernizarse sin necesidad de esperar al PSOE.
+  * El **PSOE** necesita cambiar de líderes y aclarar su ideología. Un partido no puede pretender llegar al poder con grandes dudas ideológicas. Por su parte, al PSdeG creo que le convendría federarse al estilo del PSC para poder modernizarse sin necesidad de esperar al PSOE.
   * El batacazo más grande se lo ha llevado el **BNG**: casi la mitad de votos y con su estructura interna desgarrada por las luchas de poder. En mi opinión tiene difícil el futuro tal y como está.
-  * Por último, el gran vencedor, a parte de Feijóo: AGE. **Beiras**, como captador de los votos de la izquierda descontenta se perfila como el líder perfecto de la oposición que seguramente ponga en mayores dificultades dialécticas a Feijóo.
+  * Por último, el gran vencedor, aparte de Feijóo: AGE. **Beiras**, como captador de los votos de la izquierda descontenta, se perfila como el líder perfecto de la oposición que seguramente ponga en mayores dificultades dialécticas a Feijóo.
 
    [1]: /media/2012/10/eleccions-galicia-2012.svg
    [2]: http://twitter.com/victrpsanchez

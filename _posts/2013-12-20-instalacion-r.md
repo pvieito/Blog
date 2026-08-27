@@ -3,18 +3,18 @@ title: Instalación del Combo R 100
 lang: es
 ---
 
-Hace unos días decidí cambiar de Movistar ADSL 10 Mbps a un Combo R 100 Mbps. Lo pedí el pasado miércoles a la mañana, a la tarde llamé para pedir la cita con el técnico y al día siguiente ya vinieron a hacer la instalación.
+Hace unos días decidí cambiar de Movistar ADSL 10 Mbps a un Combo R 100 Mbps. Lo pedí el pasado miércoles por la mañana, por la tarde llamé para pedir la cita con el técnico y al día siguiente ya vinieron a hacer la instalación.
 
 ### Instalación
 
 ![PTR de R](/media/2013/12/ptr.jpg)
 <figcaption>Lo que lleva el PTR dentro: un repartidor coaxial y un zócalo RJ para probar el teléfono.</figcaption>
 
-Básicamente suben un cable doble (coaxial para Internet y par de cobre para teléfono) desde un distribuidor externo hasta un Punto de Terminación de Red (PTR) que colocan dentro de casa. Ese PTR es una caja que simplemente tiene dos salidas coaxiales (internet y televisión) y una de teléfono.
+Básicamente suben un cable doble (coaxial para Internet y par de cobre para teléfono) desde un distribuidor externo hasta un punto de terminación de red (PTR) que colocan dentro de casa. Ese PTR es una caja que simplemente tiene dos salidas coaxiales (internet y televisión) y una de teléfono.
 
 ### Router
 
-La primera salida coaxial va directamente al router, mi modelo fue el que instalan con los Combos 100 y 200, un inesperado [Cisco EPC3928AD](http://particulares.mundo-r.com/es/mas/internet/equipos). Acostumbrado a los equipos que suele dar Movistar esto fue una bonita alegría. A parte de incluir todo los clásico (DHCP, IEEE802.11b/g/n, filtrado MAC, DDNS o DMZ) tiene también un servidor de archivos (gracias a su puerto USB), Media Server, configuración Wi-Fi avanzada (velocidad de transmisión, medición automática de ruido por canal, permite crear 2 redes inalámbricas independientes) y el VPN de Cisco.
+La primera salida coaxial va directamente al router. Mi modelo fue el que instalan con los Combos 100 y 200, un inesperado [Cisco EPC3928AD](http://particulares.mundo-r.com/es/mas/internet/equipos). Acostumbrado a los equipos que suele dar Movistar, esto fue una bonita alegría. Aparte de incluir todo lo clásico (DHCP, IEEE 802.11b/g/n, filtrado MAC, DDNS o DMZ), tiene también un servidor de archivos (gracias a su puerto USB), Media Server, configuración Wi-Fi avanzada (velocidad de transmisión, medición automática de ruido por canal, permite crear 2 redes inalámbricas independientes) y la VPN de Cisco.
 
 ### Teléfono
 

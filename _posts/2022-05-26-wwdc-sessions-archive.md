@@ -7,15 +7,15 @@ lang: en
 
 ## Introduction
 
-This archive of WWDC sessions is meant to extend the current collection of videos available on [Apple Developer website](https://developer.apple.com/videos/all-videos/) with all the sessions prior to WWDC 2017 that are not available there but continue to be hosted by Apple servers. 
+This archive of WWDC sessions is meant to extend the current collection of videos available on the [Apple Developer website](https://developer.apple.com/videos/all-videos/) with all the sessions prior to WWDC 2017 that are not available there but continue to be hosted on Apple servers.
 
 ## Notes
 
-- The videos are hosted by Apple so you may need to login with your Apple Developer account to be able to view or download them.
+- The videos are hosted by Apple, so you may need to log in with your Apple Developer account to view or download them.
 - Unfortunately, some of the sessions do not have a link since they are not currently published by Apple.
-- Recent WWDC session videos can be found directly on [Apple Developer website](https://developer.apple.com/videos/all-videos/).
+- Recent WWDC session videos can be found directly on the [Apple Developer website](https://developer.apple.com/videos/all-videos/).
 - You can find more links for WWDC sessions on [this gist by IsaacXen](https://gist.github.com/IsaacXen/874c59aec92a13f30728aecdabb9ea80). This archive would not be possible without its initial links so credits and thanks to [IsaacXen](https://twitter.com/isaacxen).
-- The archive is also available in new-line delimited JSON format [here](/resources/downloads/WWDC-Sessions.json).
+- The archive is also available in newline-delimited JSON format [here](/resources/downloads/WWDC-Sessions.json).
 
 
 ## Index
@@ -1235,4 +1235,3 @@ This archive of WWDC sessions is meant to extend the current collection of video
 - [Session 803 – Typography and Fonts](https://devstreaming-cdn.apple.com/videos/wwdc/2016/803z7m1ln9vmbpg35x9/803/803_hd_typography_and_fonts.mp4)
 - [Session 804 – Designing Great Apple Watch Experiences](https://devstreaming-cdn.apple.com/videos/wwdc/2016/804zpr8et6qv87n8j1z/804/804_hd_designing_great_apple_watch_experiences.mp4)
 - [Session 805 – Iterative UI Design](https://devstreaming-cdn.apple.com/videos/wwdc/2016/805zlxpfexwwzt7x0cr/805/805_hd_iterative_ui_design.mp4)
-
