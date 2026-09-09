@@ -28,7 +28,7 @@ $ nvram boot-args=amfi_get_out_of_my_way=0x1
 $ reboot
 ```
 
-After reboot, we can use [**KeychainTool**](https://github.com/pvieito/KeychainKit) to dump the HomeKit keychain items. 
+After reboot, we can use [**KeychainTool**](https://github.com/pvieito/KeychainKit) to dump the HomeKit keychain items:
 
 ```bash
 $ git clone https://github.com/pvieito/KeychainKit.git
@@ -47,9 +47,7 @@ $ cat KeychainTool/KeychainTool.entitlements
 </plist>
 ```
 
-Now we will compile and run `KeychainTool` to dump all the keychain entries in the `com.apple.hap.pairing` access group.
-
-Bear in mind that `KeychainTool` uses [**CodeSignKit**](https://github.com/pvieito/CodeSignKit) to self-sign its executable with private entitlements before relaunching itself. If a `codesign` error is shown, set the `CODESIGNKIT_DEFAULT_IDENTITY` environment variable to the name of your Apple Developer certificate as presented in the Keychain app.
+Now we will compile and run `KeychainTool` to dump all the keychain entries in the `com.apple.hap.pairing` access group:
 
 ```
 $ swift run KeychainTool -g com.apple.hap.pairing

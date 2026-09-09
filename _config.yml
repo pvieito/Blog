@@ -40,6 +40,8 @@ exclude:
   - "agents"
   - "AGENTS.md"
   - "CLAUDE.md"
+  - "extra"
+  - "scripts"
   - "Icon*"
   - "README.md"
 include:
