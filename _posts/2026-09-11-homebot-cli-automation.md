@@ -1,7 +1,6 @@
 ---
 title: "HomeBot CLI: Control Your Home from Terminal, Scripts and AI Agents"
 lang: en
-published: false
 ---
 
 <picture>
@@ -52,10 +51,9 @@ homebot-cli get-home-items --item-is-sensor true --json
 
 `--json` returns an array of items with `snake_case` keys. Each record includes its name, identifier, home, status, and available actions or properties. Sensor values use the units listed in `--help`; temperatures are in degrees Celsius. Unavailable measurements and empty capability lists are omitted.
 
-You can use [jq][jq] to parse, filter, and transform the JSON output ([install jq][jq-install]). Enable `pipefail` so a failed command is not hidden by `jq`. For example, keep only temperature readings and their item and home names:
+You can use [jq][jq] to parse, filter, and transform the JSON output ([install jq][jq-install]). For example, keep only temperature readings and their item and home names:
 
 ```bash
-set -o pipefail
 homebot-cli get-home-items --item-is-sensor true --json |
   jq '[.[] | select(.temperature_sensor_measurement != null) |
     {item_name, home_name, temperature_sensor_measurement}]'
@@ -102,7 +100,6 @@ All selected items are attempted. If any action fails, the command returns a non
 For example, turn on a lamp and extract its resulting status:
 
 ```bash
-set -o pipefail
 homebot-cli run-home-action --action-type switch-device-status \
   --home-name 'Main Home' --item-name 'Desk Lamp' \
   --activation-mode activate --json |

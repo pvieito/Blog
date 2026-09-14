@@ -77,10 +77,9 @@ makepass-cli list-passes-in-wallet --filter-query Boarding --json
 
 The output is an array of passes exposed by Wallet to MakePass, or `[]` if nothing matches; it is not a complete inventory of Wallet on another device. Records include `id`, `name`, `organization`, `description`, `pass_type_identifier`, and `serial_number`; `relevant_date` is included when available.
 
-You can use [jq][jq] to parse, filter, and transform the JSON output ([install jq][jq-install]). Enable `pipefail` so a failed command is not hidden by `jq`. For example, keep only the pass identifier, name, and organization:
+You can use [jq][jq] to parse, filter, and transform the JSON output ([install jq][jq-install]). For example, keep only the pass identifier, name, and organization:
 
 ```bash
-set -o pipefail
 makepass-cli list-passes-in-wallet --filter-query Boarding --json |
   jq '[.[] | {id, name, organization}]'
 ```
