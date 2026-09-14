@@ -2,6 +2,7 @@
 
 Read `README.md` for project-specific guidance when present.
 
+For creating or revising posts, use the `blog-create-post` skill.
 For shared preview and deployment preparation, use the `blog-guide` skill.
 For local previews, use the `blog-preview` skill.
 For production deployments, use the `blog-deploy` skill.
